@@ -1,0 +1,82 @@
+{
+  "Ardee Industries": {
+    "last_gmp": "+12.74%",
+    "last_retail_sub": "N/A",
+    "new_ipo_alert_sent": true,
+    "open_alert_sent": false,
+    "closing_alert_sent": false,
+    "listing_alert_sent": false
+  },
+  "MV Electrosystems": {
+    "last_gmp": "+26.59%",
+    "last_retail_sub": "42.28x",
+    "new_ipo_alert_sent": true,
+    "open_alert_sent": true,
+    "closing_alert_sent": false,
+    "listing_alert_sent": false
+  },
+  "Juniper Green Energy": {
+    "last_gmp": "+0.67%",
+    "last_retail_sub": "0.23x",
+    "new_ipo_alert_sent": true,
+    "open_alert_sent": true,
+    "closing_alert_sent": false,
+    "listing_alert_sent": false
+  },
+  "Cube Highways Trust InvIT": {
+    "last_gmp": "+1.15%",
+    "last_retail_sub": "N/A",
+    "new_ipo_alert_sent": true,
+    "open_alert_sent": true,
+    "closing_alert_sent": true,
+    "listing_alert_sent": true
+  },
+  "Indo-MIM": {
+    "last_gmp": "+37.94%",
+    "last_retail_sub": "6.69x",
+    "new_ipo_alert_sent": true,
+    "open_alert_sent": true,
+    "closing_alert_sent": true,
+    "listing_alert_sent": true
+  },
+  "Lohia Corp": {
+    "last_gmp": "+4.0%",
+    "last_retail_sub": "2.78x",
+    "new_ipo_alert_sent": true,
+    "open_alert_sent": true,
+    "closing_alert_sent": true,
+    "listing_alert_sent": true
+  },
+  "Xtranet Technologies": {
+    "last_gmp": "+11.42%",
+    "last_retail_sub": "8.98x",
+    "new_ipo_alert_sent": true,
+    "open_alert_sent": true,
+    "closing_alert_sent": true,
+    "listing_alert_sent": true
+  },
+  "Caliber Mining": {
+    "last_gmp": "+14.15%",
+    "last_retail_sub": "43.4x",
+    "new_ipo_alert_sent": true,
+    "open_alert_sent": true,
+    "closing_alert_sent": true,
+    "listing_alert_sent": true
+  },
+  "SBI Funds Management": {
+    "last_gmp": "+11.32%",
+    "last_retail_sub": "3.76x",
+    "new_ipo_alert_sent": true,
+    "open_alert_sent": true,
+    "closing_alert_sent": true,
+    "listing_alert_sent": true
+  },
+  "Alpine Texworld": {
+    "last_gmp": "+0.95%",
+    "last_retail_sub": "1.54x",
+    "new_ipo_alert_sent": true,
+    "open_alert_sent": true,
+    "closing_alert_sent": true,
+    "listing_alert_sent": true
+  }
+}
