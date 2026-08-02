@@ -87,6 +87,38 @@ def clean_html_tags(text: str) -> str:
     clean = clean.replace('&nbsp;', ' ').replace('&#8377;', '₹').replace('&amp;', '&')
     return clean.strip()
 
+def extract_allotment_link_from_html(html: str) -> str:
+    """
+    Parses detailed IPO page HTML to extract the registrar website.
+    """
+    if not html:
+        return None
+    try:
+        # Search for registrar domains matching http/https URLs
+        urls = re.findall(r'https?://[^\s"\'<>]+', html)
+        
+        # Recognized registrar domains
+        registrar_keywords = [
+            "linkintime", "kfintech", "bigshareonline", "bigshare", "maashitla", "mufg",
+            "cameoindia", "skylinerta", "purvashare", "integratedindia", "beetalfinancial", "masserv"
+        ]
+        
+        for url in urls:
+            clean_url = url.replace('\\', '/')
+            # Remove duplicate slashes
+            clean_url = re.sub(r'(?<!:)/+', '/', clean_url)
+            # Trim bounds
+            for delim in ['"', "'", '<', '>', '\\', ';', '&', ')', '(', ']', '[']:
+                clean_url = clean_url.split(delim)[0]
+            clean_url = clean_url.rstrip('/.,;')
+            
+            if any(kw in clean_url.lower() for kw in registrar_keywords):
+                return clean_url
+    except Exception as e:
+        print(f"Error extracting allotment link: {e}")
+        
+    return None
+
 def fetch_allotment_link(row: dict) -> str:
     """
     Retrieves the allotment status page URL for an IPO.
@@ -112,31 +144,114 @@ def fetch_allotment_link(row: dict) -> str:
     if not response:
         return None
         
-    try:
-        # Search for registrar domains matching http/https URLs
-        urls = re.findall(r'https?://[^\s"\'<>]+', response.text)
+    return extract_allotment_link_from_html(response.text)
+
+def normalize_percentage(percent: float) -> int:
+    """
+    Normalizes/rounds the percentage to the closest value in [10, 30, 35, 50].
+    """
+    if percent is None:
+        return None
+    allowed = [10, 30, 35, 50]
+    closest = min(allowed, key=lambda x: abs(x - percent))
+    return closest
+
+def format_amount(amount: float) -> str:
+    """
+    Formats the quota amount in Cr, stripping trailing .00 or .0 if it's a whole number.
+    """
+    if amount is None:
+        return None
+    formatted = f"{amount:.2f}"
+    if formatted.endswith(".00"):
+        formatted = formatted[:-3]
+    elif formatted.endswith("0") and "." in formatted:
+        formatted = formatted[:-1]
+    return formatted
+
+def parse_issue_size(size_str: str) -> float:
+    """
+    Parses issue size string (e.g., '₹1,245 Cr') and returns float value in Cr.
+    """
+    if not size_str or size_str == "N/A":
+        return 0.0
+    clean_str = size_str.replace(",", "").strip()
+    match = re.search(r'(\d+(?:\.\d+)?)', clean_str)
+    if not match:
+        return 0.0
+    val = float(match.group(1))
+    if "lakh" in clean_str.lower():
+        val = val / 100.0
+    return val
+
+def parse_retail_reservation(html: str) -> tuple:
+    """
+    Parses the HTML to find the retail quota percentage and, if available, the retail reservation amount.
+    Returns (percentage, amount_in_cr_or_none).
+    """
+    if not html:
+        return None, None
         
-        # Recognized registrar domains
-        registrar_keywords = [
-            "linkintime", "kfintech", "bigshareonline", "bigshare", "maashitla", "mufg",
-            "cameoindia", "skylinerta", "purvashare", "integratedindia", "beetalfinancial", "masserv"
-        ]
-        
-        for url in urls:
-            clean_url = url.replace('\\', '/')
-            # Remove duplicate slashes
-            clean_url = re.sub(r'(?<!:)/+', '/', clean_url)
-            # Trim bounds
-            for delim in ['"', "'", '<', '>', '\\', ';', '&', ')', '(', ']', '[']:
-                clean_url = clean_url.split(delim)[0]
-            clean_url = clean_url.rstrip('/.,;')
-            
-            if any(kw in clean_url.lower() for kw in registrar_keywords):
-                return clean_url
-    except Exception as e:
-        print(f"Error extracting allotment link: {e}")
-        
-    return None
+    soup = BeautifulSoup(html, 'html.parser')
+    
+    # Locate row for Retail/RII
+    retail_row = None
+    rsv_table = soup.find('table', class_='rsv-table')
+    if rsv_table:
+        for row in rsv_table.find_all('tr'):
+            cells = row.find_all(['td', 'th'])
+            if len(cells) >= 2:
+                category = cells[0].get_text(strip=True).lower()
+                if 'retail' in category or 'rii' in category:
+                    retail_row = cells
+                    break
+    if not retail_row:
+        for table in soup.find_all('table'):
+            for row in table.find_all('tr'):
+                cells = row.find_all(['td', 'th'])
+                if len(cells) >= 2:
+                    category = cells[0].get_text(strip=True).lower()
+                    if 'retail' in category or 'rii' in category:
+                        retail_row = cells
+                        break
+            if retail_row:
+                break
+                
+    percent = None
+    amount = None
+    
+    if retail_row:
+        # Search all cells after the first one for percentage and amount
+        for cell in retail_row[1:]:
+            text = cell.get_text(strip=True)
+            # Find percentage
+            if percent is None:
+                pct_match = re.search(r'(\d+(?:\.\d+)?)%', text)
+                if pct_match:
+                    percent = float(pct_match.group(1))
+            # Find amount in Cr
+            if amount is None:
+                amt_match = re.search(r'(?:₹|Rs\.?)\s*(\d+(?:\.\d+)?)\s*Cr', text, re.IGNORECASE)
+                if amt_match:
+                    amount = float(amt_match.group(1))
+                    
+    # Fallback to entire HTML regex if not found in table cells
+    if percent is None:
+        matches = re.finditer(r'(?i)retail', html)
+        for m in matches:
+            start = m.start()
+            end = min(len(html), start + 150)
+            snippet = html[start:end]
+            pct_match = re.search(r'(\d+(?:\.\d+)?)%', snippet)
+            if pct_match:
+                percent = float(pct_match.group(1))
+                # Also check for amount in snippet
+                amt_match = re.search(r'(?:₹|Rs\.?)\s*(\d+(?:\.\d+)?)\s*Cr', snippet, re.IGNORECASE)
+                if amt_match:
+                    amount = float(amt_match.group(1))
+                break
+                
+    return percent, amount
 
 def fetch_ipos() -> list:
     """
@@ -239,9 +354,41 @@ def fetch_ipos() -> list:
         # Formatted GMP percentage
         formatted_gmp = f"+{gmp_val}%"
         
-        # Fetch Allotment Link
-        allotment_link = fetch_allotment_link(row)
+        # Check if allotment link is inside the Name field first (for closed/allotted IPOs)
+        name_html = row.get("Name", "")
+        allotment_match = re.search(r'href="([^"]+)"[^>]*title="Check Allotment"', name_html)
+        allotment_link = allotment_match.group(1).replace('\\', '') if allotment_match else None
         
+        # Fetch IPO detailed page to parse retail quota and registrar allotment link
+        folder_name = row.get("~urlrewrite_folder_name")
+        detail_html = None
+        if folder_name:
+            folder_name = folder_name.replace("/gmp/", "/ipo/")
+            detail_url = f"https://www.investorgain.com{folder_name}"
+            print(f"Fetching IPO details from {detail_url}...")
+            detail_resp = fetch_with_retry(detail_url)
+            if detail_resp:
+                detail_html = detail_resp.text
+                
+        # If allotment link was not in Name, try to extract it from the detailed page
+        if detail_html and not allotment_link:
+            allotment_link = extract_allotment_link_from_html(detail_html)
+            
+        # Parse Retail Reservation (Quota) information
+        retail_quota_percent = None
+        retail_quota_amount = None
+        if detail_html:
+            raw_percent, raw_amount = parse_retail_reservation(detail_html)
+            if raw_percent is not None:
+                retail_quota_percent = normalize_percentage(raw_percent)
+                if raw_amount is not None:
+                    retail_quota_amount = format_amount(raw_amount)
+                else:
+                    issue_size_val = parse_issue_size(issue_size)
+                    if issue_size_val > 0:
+                        calculated_amount = issue_size_val * retail_quota_percent / 100.0
+                        retail_quota_amount = format_amount(calculated_amount)
+                        
         processed_ipos.append({
             "id": ipo_id,
             "ipo_name": row.get("~ipo_name", "N/A"),
@@ -254,7 +401,9 @@ def fetch_ipos() -> list:
             "listing_date": listing_date,
             "gmp_percent": formatted_gmp,
             "retail_sub": retail_sub,
-            "allotment_link": allotment_link
+            "allotment_link": allotment_link,
+            "retail_quota_percent": retail_quota_percent,
+            "retail_quota_amount": retail_quota_amount
         })
         
     return processed_ipos

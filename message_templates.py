@@ -42,12 +42,22 @@ def build_new_ipo_message(ipo: dict) -> str:
     allot_link = ipo.get("allotment_link")
     allot_line = f"🔗 Check Allotment : {allot_link}\n\n" if allot_link else ""
     
+    quota_line = ""
+    quota_pct = ipo.get("retail_quota_percent")
+    quota_amt = ipo.get("retail_quota_amount")
+    if quota_pct is not None:
+        if quota_amt:
+            quota_line = f"👥 <b>RII Quota  :</b> {quota_pct}% (₹{quota_amt} Cr)\n"
+        else:
+            quota_line = f"👥 <b>RII Quota  :</b> {quota_pct}%\n"
+    
     return (
         f"🚀 <b>New IPO ALERT</b>\n\n"
         f"🏢 <b>Company:</b> {ipo.get('ipo_name', 'N/A')}\n\n"
         f"📅 <b>Opens :</b> {open_d}\n"
         f"📅 <b>Closes:</b> {close_d}\n\n"
         f"📦 <b>Issue Size :</b> {ipo.get('issue_size', 'N/A')}\n"
+        f"{quota_line}"
         f"💰 <b>Price Band :</b> {ipo.get('price_band', 'N/A')}\n"
         f"📊 <b>Lot Size   :</b> {ipo.get('lot_size', 'N/A')}\n"
         f"💵 <b>Investment :</b> {ipo.get('min_investment', 'N/A')}\n\n"
@@ -94,10 +104,21 @@ def build_open_today_message(ipo: dict) -> str:
     close_d = format_date(ipo.get("close_date"))
     allot_link = ipo.get("allotment_link")
     allot_line = f"🔗 Check Allotment : {allot_link}\n\n" if allot_link else ""
+    
+    quota_line = ""
+    quota_pct = ipo.get("retail_quota_percent")
+    quota_amt = ipo.get("retail_quota_amount")
+    if quota_pct is not None:
+        if quota_amt:
+            quota_line = f"👥 <b>RII Quota  :</b> {quota_pct}% (₹{quota_amt} Cr)\n"
+        else:
+            quota_line = f"👥 <b>RII Quota  :</b> {quota_pct}%\n"
+            
     return (
         f"🟢 <b>IPO OPEN TODAY</b>\n\n"
         f"🏢 <b>{ipo.get('ipo_name', 'N/A')}</b>\n\n"
         f"📦 <b>Issue Size :</b> {ipo.get('issue_size', 'N/A')}\n"
+        f"{quota_line}"
         f"💰 <b>Price Band :</b> {ipo.get('price_band', 'N/A')}\n"
         f"📊 <b>Lot Size   :</b> {ipo.get('lot_size', 'N/A')}\n"
         f"💵 <b>Investment :</b> {ipo.get('min_investment', 'N/A')}\n\n"
