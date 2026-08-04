@@ -38,9 +38,12 @@ def build_new_ipo_message(ipo: dict) -> str:
     """
     open_d = format_date(ipo.get("open_date"))
     close_d = format_date(ipo.get("close_date"))
+    allot_d = format_date(ipo.get("allotment_date"))
+    listing_d = format_date(ipo.get("listing_date"))
+    
     retail_s = format_sub(ipo.get("retail_sub"))
-    allot_link = ipo.get("allotment_link")
-    allot_line = f"🔗 Check Allotment : {allot_link}\n\n" if allot_link else ""
+    allot_link = ipo.get("allotment_status_url") or ipo.get("allotment_link")
+    allot_line = f"🔍 <b>Check Allotment :</b>\n{allot_link}\n\n" if allot_link else ""
     
     quota_line = ""
     quota_pct = ipo.get("retail_quota_percent")
@@ -50,12 +53,23 @@ def build_new_ipo_message(ipo: dict) -> str:
             quota_line = f"👥 <b>RII Quota  :</b> {quota_pct}% (₹{quota_amt} Cr)\n"
         else:
             quota_line = f"👥 <b>RII Quota  :</b> {quota_pct}%\n"
+            
+    dates_block = []
+    if open_d and open_d != "N/A":
+        dates_block.append(f"📅 <b>Opens     :</b> {open_d}")
+    if close_d and close_d != "N/A":
+        dates_block.append(f"📅 <b>Closes    :</b> {close_d}")
+    if allot_d and allot_d != "N/A":
+        dates_block.append(f"📅 <b>Allotment :</b> {allot_d}")
+    if listing_d and listing_d != "N/A":
+        dates_block.append(f"📅 <b>Listing   :</b> {listing_d}")
+        
+    dates_str = "\n".join(dates_block)
     
     return (
         f"🚀 <b>New IPO ALERT</b>\n\n"
         f"🏢 <b>Company:</b> {ipo.get('ipo_name', 'N/A')}\n\n"
-        f"📅 <b>Opens :</b> {open_d}\n"
-        f"📅 <b>Closes:</b> {close_d}\n\n"
+        f"{dates_str}\n\n"
         f"📦 <b>Issue Size :</b> {ipo.get('issue_size', 'N/A')}\n"
         f"{quota_line}"
         f"💰 <b>Price Band :</b> {ipo.get('price_band', 'N/A')}\n"
@@ -88,14 +102,41 @@ def build_subscription_update_message(ipo: dict, old_sub: str, new_sub: str) -> 
     """
     Builds a formatted HTML message when the retail subscription of an IPO changes.
     """
-    current_sub = format_sub(new_sub)
-    return (
-        f"🔥 <b>SUBSCRIPTION UPDATE</b>\n\n"
-        f"🏢 <b>{ipo.get('ipo_name', 'N/A')}</b>\n\n"
-        f"👥 <b>Subscription :</b> {current_sub}\n\n"
-        f"📈 <b>GMP :</b> {ipo.get('gmp_percent', 'N/A')}\n\n"
-        f"🕒 <b>Updated:</b> {get_ist_time_str()}"
-    )
+    daily_sub = ipo.get("daily_retail_subscription")
+    sub_time = ipo.get("subscription_updated_time")
+    
+    if daily_sub and sub_time:
+        current_sub = format_sub(new_sub)
+        
+        progress_lines = []
+        days = list(daily_sub.keys())
+        for idx, day in enumerate(days):
+            val = format_sub(daily_sub[day])
+            if idx == len(days) - 1:
+                progress_lines.append(f"{day} : {val} ⬅️ Updated")
+            else:
+                progress_lines.append(f"{day} : {val}")
+        
+        progress_str = "\n".join(progress_lines)
+        
+        return (
+            f"🔥 <b>RETAIL SUBSCRIPTION UPDATE</b>\n\n"
+            f"🏢 <b>{ipo.get('ipo_name', 'N/A')}</b>\n\n"
+            f"📈 <b>GMP :</b> {ipo.get('gmp_percent', 'N/A')}\n\n"
+            f"👥 <b>Current Subscription :</b> {current_sub}\n\n"
+            f"📊 <b>Day-wise Progress</b>\n\n"
+            f"{progress_str}\n\n"
+            f"🕒 <b>Updated :</b> {sub_time}"
+        )
+    else:
+        current_sub = format_sub(new_sub)
+        return (
+            f"🔥 <b>SUBSCRIPTION UPDATE</b>\n\n"
+            f"🏢 <b>{ipo.get('ipo_name', 'N/A')}</b>\n\n"
+            f"👥 <b>Subscription :</b> {current_sub}\n\n"
+            f"📈 <b>GMP :</b> {ipo.get('gmp_percent', 'N/A')}\n\n"
+            f"🕒 <b>Updated:</b> {get_ist_time_str()}"
+        )
 
 def build_open_today_message(ipo: dict) -> str:
     """

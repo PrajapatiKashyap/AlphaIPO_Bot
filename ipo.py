@@ -1,6 +1,7 @@
 import re
 import requests
 from bs4 import BeautifulSoup
+from datetime import datetime
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -253,6 +254,104 @@ def parse_retail_reservation(html: str) -> tuple:
                 
     return percent, amount
 
+def parse_updated_time(date_str: str) -> datetime:
+    """
+    Cleans ordinal suffixes (e.g. 3rd, 30th) and formats the date string,
+    then parses it into a datetime object.
+    """
+    # Clean ordinal suffixes: 1st, 2nd, 3rd, 4th, 30th etc.
+    cleaned = re.sub(r'(\d+)(?:st|nd|rd|th)\b', r'\1', date_str, flags=re.IGNORECASE)
+    cleaned = cleaned.replace('-', ' ')
+    cleaned = ' '.join(cleaned.split())
+    
+    formats = [
+        "%d %b %Y %H:%M",
+        "%d %B %Y %H:%M",
+    ]
+    for fmt in formats:
+        try:
+            return datetime.strptime(cleaned, fmt)
+        except ValueError:
+            continue
+    raise ValueError(f"Could not parse date string: {date_str}")
+
+def format_updated_time(dt: datetime) -> str:
+    """
+    Formats a datetime object as 'DD-Mon | HH:MM AM/PM'.
+    """
+    return dt.strftime("%d-%b | %I:%M %p")
+
+def clean_sub_value(val: str) -> str:
+    """
+    Cleans and standardizes the subscription value, ensuring it ends with 'x'.
+    """
+    val = val.strip()
+    if not val or val == "-":
+        return "N/A"
+    if not val.endswith('x') and not val.endswith('×'):
+        val += 'x'
+    val = val.replace('×', 'x')
+    return val
+
+def parse_daywise_subscription_table(soup: BeautifulSoup) -> tuple:
+    """
+    Parses the BeautifulSoup object (reconstructed Next.js payload) to extract
+    daily RII subscriptions, the latest RII value, and the latest update timestamp.
+    Returns (daily_retail_subscription, latest_retail_subscription, subscription_updated_time).
+    """
+    tables = soup.find_all('table')
+    for table in tables:
+        rows = table.find_all('tr')
+        if not rows:
+            continue
+        
+        header_cells = rows[0].find_all(['th', 'td'])
+        headers = [c.get_text(strip=True).lower() for c in header_cells]
+        
+        # Look for the table having both "day" and "rii" columns
+        if "day" in headers and "rii" in headers:
+            day_idx = headers.index("day")
+            rii_idx = headers.index("rii")
+            date_idx = headers.index("date") if "date" in headers else -1
+            
+            daily_retail_sub = {}
+            latest_retail_sub = None
+            raw_latest_date = None
+            
+            for row in rows[1:]:
+                cells = row.find_all(['td', 'th'])
+                if len(cells) <= max(day_idx, rii_idx, date_idx):
+                    continue
+                
+                day_text = cells[day_idx].get_text(strip=True)
+                rii_text = cells[rii_idx].get_text(strip=True)
+                
+                if not day_text.lower().startswith("day"):
+                    continue
+                
+                rii_val = clean_sub_value(rii_text)
+                if rii_val == "N/A":
+                    continue
+                
+                daily_retail_sub[day_text] = rii_val
+                latest_retail_sub = rii_val
+                
+                if date_idx != -1:
+                    raw_latest_date = cells[date_idx].get_text(strip=True)
+            
+            if daily_retail_sub:
+                formatted_date = None
+                if raw_latest_date:
+                    try:
+                        dt = parse_updated_time(raw_latest_date)
+                        formatted_date = format_updated_time(dt)
+                    except Exception as e:
+                        print(f"Error parsing date '{raw_latest_date}': {e}")
+                
+                return daily_retail_sub, latest_retail_sub, formatted_date
+                
+    return None, None, None
+
 def fetch_ipos() -> list:
     """
     Fetches, filters, processes, and correlates live Mainboard IPOs from InvestorGain.
@@ -389,11 +488,45 @@ def fetch_ipos() -> list:
                         calculated_amount = issue_size_val * retail_quota_percent / 100.0
                         retail_quota_amount = format_amount(calculated_amount)
                         
+        # Parse detailed page for day-wise subscription and latest subscription
+        daily_retail_subscription = None
+        latest_retail_subscription = None
+        subscription_updated_time = None
+        
+        if detail_html:
+            try:
+                # 1. Reconstruct Next.js payload
+                matches = re.findall(r'self\.__next_f\.push\(\[(?:\d+),\s*"(.*?)"\]\)', detail_html)
+                if matches:
+                    reconstructed = ""
+                    for m in matches:
+                        chunk = m.replace('\\"', '"').replace('\\\\', '\\').replace('\\/', '/')
+                        try:
+                            chunk = chunk.encode().decode('unicode-escape', errors='ignore')
+                        except Exception:
+                            pass
+                        reconstructed += chunk
+                    
+                    # 2. Parse table
+                    detail_soup = BeautifulSoup(reconstructed, 'html.parser')
+                    daily_sub, latest_sub, sub_time = parse_daywise_subscription_table(detail_soup)
+                    if daily_sub:
+                        daily_retail_subscription = daily_sub
+                        latest_retail_subscription = latest_sub
+                        subscription_updated_time = sub_time
+            except Exception as e:
+                print(f"Error parsing daywise subscription for {row.get('~ipo_name')}: {e}")
+                
+        # Override retail_sub if we found the latest subscription in the daywise table
+        if latest_retail_subscription:
+            retail_sub = latest_retail_subscription
+            
         processed_ipos.append({
             "id": ipo_id,
             "ipo_name": row.get("~ipo_name", "N/A"),
             "open_date": open_date,
             "close_date": close_date,
+            "allotment_date": row.get("~Srt_BoA_Dt", "N/A"),
             "issue_size": issue_size,
             "price_band": raw_price if raw_price else "N/A",
             "lot_size": lot if lot > 0 else "N/A",
@@ -402,8 +535,11 @@ def fetch_ipos() -> list:
             "gmp_percent": formatted_gmp,
             "retail_sub": retail_sub,
             "allotment_link": allotment_link,
+            "allotment_status_url": allotment_link,
             "retail_quota_percent": retail_quota_percent,
-            "retail_quota_amount": retail_quota_amount
+            "retail_quota_amount": retail_quota_amount,
+            "daily_retail_subscription": daily_retail_subscription,
+            "subscription_updated_time": subscription_updated_time
         })
         
     return processed_ipos

@@ -1,6 +1,6 @@
 {
   "Ardee Industries": {
-    "last_gmp": "+12.74%",
+    "last_gmp": "+14.15%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -8,16 +8,16 @@
     "listing_alert_sent": false
   },
   "MV Electrosystems": {
-    "last_gmp": "+27.06%",
-    "last_retail_sub": "42.28x",
+    "last_gmp": "+23.53%",
+    "last_retail_sub": "218.25x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": false,
     "listing_alert_sent": false
   },
   "Juniper Green Energy": {
-    "last_gmp": "+0.44%",
-    "last_retail_sub": "0.23x",
+    "last_gmp": "+5.33%",
+    "last_retail_sub": "0.98x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": false,
@@ -66,10 +66,10 @@
   "SBI Funds Management": {
     "last_gmp": "+11.32%",
     "last_retail_sub": "3.76x",
-    "new_ipo_alert_sent": true,
-    "open_alert_sent": true,
-    "closing_alert_sent": true,
-    "listing_alert_sent": true
+    "new_ipo_alert_sent": false,
+    "open_alert_sent": false,
+    "closing_alert_sent": false,
+    "listing_alert_sent": false
   },
   "Alpine Texworld": {
     "last_gmp": "+0.95%",
@@ -78,5 +78,29 @@
     "open_alert_sent": true,
     "closing_alert_sent": true,
     "listing_alert_sent": true
+  },
+  "Dhoot Transmission": {
+    "last_gmp": "+25.26%",
+    "last_retail_sub": "N/A",
+    "new_ipo_alert_sent": true,
+    "open_alert_sent": false,
+    "closing_alert_sent": false,
+    "listing_alert_sent": false
+  },
+  "LEAP India": {
+    "last_gmp": "+2.52%",
+    "last_retail_sub": "N/A",
+    "new_ipo_alert_sent": true,
+    "open_alert_sent": false,
+    "closing_alert_sent": false,
+    "listing_alert_sent": false
+  },
+  "Technocraft Ventures": {
+    "last_gmp": "+4.72%",
+    "last_retail_sub": "N/A",
+    "new_ipo_alert_sent": true,
+    "open_alert_sent": false,
+    "closing_alert_sent": false,
+    "listing_alert_sent": false
   }
 }

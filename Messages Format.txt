@@ -1,12 +1,14 @@
-Note : "All in for mainboard IPOs only with more that 0% GMP, and the SUBSCRIPTION data in of retails only"
+Note : "All are for mainboard IPOs only with more that 0% GMP, and the SUBSCRIPTION data is for retails only"
 
 
 🚀 New IPO ALERT
 
 🏢 Company: XYZ Limited
 
-📅 Opens : 08-Aug-2026
-📅 Closes: 12-Aug-2026
+📅 Opens     : 08-Aug-2026
+📅 Closes    : 12-Aug-2026
+📅 Allotment : 12-Aug-2026
+📅 Listing   : 12-Aug-2026
 
 📦 Issue Size : ₹1,245 Cr
 👥 RII Quota  : 35% (₹435.75 Cr)
@@ -25,6 +27,7 @@ https://......
 
 ----------------------------------------------
 
+
 📈 GMP UPDATE
 
 🏢 XYZ Limited
@@ -35,22 +38,31 @@ Current  : 18.45%
 📅 Opens : 08-Aug-2026
 📅 Closes: 12-Aug-2026
 
-🕒 Updated: 07-Aug | 06:45 PM
+🕒 Updated : 07-Aug | 06:45 PM
 
 
 ----------------------------------------------
 
-🔥 SUBSCRIPTION UPDATE
+
+🔥 RETAIL SUBSCRIPTION UPDATE
 
 🏢 XYZ Limited
 
-👥 Subscription : 12.21×
+📈 GMP : +18.45%
 
-📈 GMP : 18.45%
+👥 Current Subscription : 218.25×
 
-🕒 Updated: 09-Aug | 02:30 PM
+📊 Day-wise Progress
+
+Day 1 : 12.68×
+Day 2 : 42.28×
+Day 3 : 218.25× ⬅️ Updated
+
+🕒 Updated : 09-Aug | 02:00 PM
+
 
 ----------------------------------------------
+
 
 🟢 IPO OPEN TODAY
 
@@ -69,6 +81,7 @@ https://......
 
 ⏳ Last Date: 12-Aug-2026
 
+
 ----------------------------------------------
 
 
@@ -83,6 +96,7 @@ https://......
 https://......
 
 ⚠️ Last day to apply.
+
 
 ----------------------------------------------
 
