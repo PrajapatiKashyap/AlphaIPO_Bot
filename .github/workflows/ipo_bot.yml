@@ -1,9 +1,9 @@
 name: AlphaIPO Bot
 
+permissions:
+  contents: write
+
 on:
-  schedule:
-    # Run every day at 07:00 AM IST, 10:00 AM IST, and 02:00 PM IST (01:30, 04:30, 08:30 UTC)
-    - cron: '30 1,4,8 * * *'
   workflow_dispatch:
 
 jobs:
@@ -27,6 +27,9 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run IPO Monitor Bot
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
         run: python main.py
 
       - name: Commit and Push State File
@@ -38,5 +41,4 @@ jobs:
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-          CHAT_ID: ${{ secrets.CHAT_ID }}
+
