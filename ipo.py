@@ -411,9 +411,7 @@ def fetch_ipos() -> list:
         except ValueError:
             gmp_val = 0.0
             
-        # Ignore if GMP is 0% or negative
-        if gmp_val <= 0.0:
-            continue
+        # Allow negative/zero GMP to support sending initial alert for all Mainboard IPOs
             
         # Correlate with Subscription Report
         ipo_id = row.get("~id")
@@ -451,7 +449,10 @@ def fetch_ipos() -> list:
         issue_size = clean_html_tags(row.get("IPO Size", "N/A"))
         
         # Formatted GMP percentage
-        formatted_gmp = f"+{gmp_val}%"
+        if gmp_val > 0.0:
+            formatted_gmp = f"+{gmp_val}%"
+        else:
+            formatted_gmp = f"{gmp_val}%"
         
         # Check if allotment link is inside the Name field first (for closed/allotted IPOs)
         name_html = row.get("Name", "")
