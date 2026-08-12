@@ -1,11 +1,11 @@
 {
   "Ardee Industries": {
-    "last_gmp": "+24.53%",
+    "last_gmp": "+32.08%",
     "last_retail_sub": "47.77x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
-    "listing_alert_sent": false,
+    "listing_alert_sent": true,
     "open_date": "2026-08-05",
     "close_date": "2026-08-07",
     "update_alerts_enabled": true,
@@ -100,11 +100,11 @@
     "listing_alert_sent": true
   },
   "Dhoot Transmission": {
-    "last_gmp": "+28.24%",
-    "last_retail_sub": "1.13x",
+    "last_gmp": "+29.28%",
+    "last_retail_sub": "3.05x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
-    "closing_alert_sent": false,
+    "closing_alert_sent": true,
     "listing_alert_sent": false,
     "open_date": "2026-08-10",
     "close_date": "2026-08-12",
@@ -112,8 +112,8 @@
     "update_alerts_permanently_disabled": false
   },
   "LEAP India": {
-    "last_gmp": "+6.29%",
-    "last_retail_sub": "0.56x",
+    "last_gmp": "+8.18%",
+    "last_retail_sub": "1.81x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": true,
@@ -124,8 +124,8 @@
     "update_alerts_permanently_disabled": false
   },
   "Technocraft Ventures": {
-    "last_gmp": "+11.32%",
-    "last_retail_sub": "6.36x",
+    "last_gmp": "0.0%",
+    "last_retail_sub": "25.35x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": true,
@@ -138,10 +138,10 @@
   "Shiprocket": {
     "open_date": "2026-08-12",
     "close_date": "2026-08-14",
-    "last_gmp": "+27.84%",
+    "last_gmp": "+30.93%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
-    "open_alert_sent": false,
+    "open_alert_sent": true,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
     "update_alerts_enabled": true,
@@ -150,10 +150,10 @@
   "Behari Lal Engineering": {
     "open_date": "2026-08-12",
     "close_date": "2026-08-14",
-    "last_gmp": "+15.79%",
+    "last_gmp": "+23.51%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
-    "open_alert_sent": false,
+    "open_alert_sent": true,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
     "update_alerts_enabled": true,
@@ -162,8 +162,8 @@
   "Milky Mist Dairy Food": {
     "open_date": "2026-08-11",
     "close_date": "2026-08-13",
-    "last_gmp": "+15.0%",
-    "last_retail_sub": "0.18x",
+    "last_gmp": "+16.07%",
+    "last_retail_sub": "1.01x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": false,
@@ -174,11 +174,11 @@
   "Molbio Diagnostics": {
     "open_date": "2026-08-10",
     "close_date": "2026-08-12",
-    "last_gmp": "+15.12%",
-    "last_retail_sub": "1.16x",
+    "last_gmp": "+17.1%",
+    "last_retail_sub": "3.19x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
-    "closing_alert_sent": false,
+    "closing_alert_sent": true,
     "listing_alert_sent": false,
     "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
@@ -198,9 +198,9 @@
   "Lalithaa Jewellery Mart": {
     "open_date": "2026-08-17",
     "close_date": "2026-08-19",
-    "last_gmp": "0.0%",
+    "last_gmp": "+8.46%",
     "last_retail_sub": "N/A",
-    "new_ipo_alert_sent": false,
+    "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
