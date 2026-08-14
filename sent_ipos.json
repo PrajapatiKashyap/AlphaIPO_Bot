@@ -100,7 +100,7 @@
     "listing_alert_sent": true
   },
   "Dhoot Transmission": {
-    "last_gmp": "+31.57%",
+    "last_gmp": "+30.54%",
     "last_retail_sub": "8.32x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -138,8 +138,8 @@
   "Shiprocket": {
     "open_date": "2026-08-12",
     "close_date": "2026-08-14",
-    "last_gmp": "+37.63%",
-    "last_retail_sub": "10.19x",
+    "last_gmp": "+37.11%",
+    "last_retail_sub": "19.16x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
@@ -151,7 +151,7 @@
     "open_date": "2026-08-12",
     "close_date": "2026-08-14",
     "last_gmp": "+28.07%",
-    "last_retail_sub": "9.52x",
+    "last_retail_sub": "19.14x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
@@ -162,7 +162,7 @@
   "Milky Mist Dairy Food": {
     "open_date": "2026-08-11",
     "close_date": "2026-08-13",
-    "last_gmp": "+18.57%",
+    "last_gmp": "+17.14%",
     "last_retail_sub": "8.86x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -174,7 +174,7 @@
   "Molbio Diagnostics": {
     "open_date": "2026-08-10",
     "close_date": "2026-08-12",
-    "last_gmp": "+19.33%",
+    "last_gmp": "+16.85%",
     "last_retail_sub": "12.97x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -198,7 +198,7 @@
   "Lalithaa Jewellery Mart": {
     "open_date": "2026-08-17",
     "close_date": "2026-08-19",
-    "last_gmp": "+18.91%",
+    "last_gmp": "+17.91%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -222,13 +222,13 @@
   "Sunshine Pictures": {
     "open_date": "2026-08-18",
     "close_date": "2026-08-20",
-    "last_gmp": "+9.17%",
+    "last_gmp": "+13.33%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
-    "update_alerts_enabled": false,
+    "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
   },
   "Horizon Industrial Parks": {
@@ -246,13 +246,13 @@
   "Skyways Air": {
     "open_date": "2026-08-24",
     "close_date": "2026-08-27",
-    "last_gmp": "0.0%",
+    "last_gmp": "+13.77%",
     "last_retail_sub": "N/A",
-    "new_ipo_alert_sent": false,
+    "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
-    "update_alerts_enabled": false,
+    "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
   },
   "Gaja Alternative Asset Management": {
