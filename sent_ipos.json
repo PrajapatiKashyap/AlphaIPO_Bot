@@ -100,7 +100,7 @@
     "listing_alert_sent": true
   },
   "Dhoot Transmission": {
-    "last_gmp": "+30.08%",
+    "last_gmp": "+29.85%",
     "last_retail_sub": "8.32x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -138,7 +138,7 @@
   "Shiprocket": {
     "open_date": "2026-08-12",
     "close_date": "2026-08-14",
-    "last_gmp": "+35.05%",
+    "last_gmp": "+31.96%",
     "last_retail_sub": "48.38x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -162,7 +162,7 @@
   "Milky Mist Dairy Food": {
     "open_date": "2026-08-11",
     "close_date": "2026-08-13",
-    "last_gmp": "+14.64%",
+    "last_gmp": "+11.43%",
     "last_retail_sub": "8.86x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -258,6 +258,18 @@
   "Gaja Alternative Asset Management": {
     "open_date": "2026-08-19",
     "close_date": "2026-08-21",
+    "last_gmp": "0.0%",
+    "last_retail_sub": "N/A",
+    "new_ipo_alert_sent": false,
+    "open_alert_sent": false,
+    "closing_alert_sent": false,
+    "listing_alert_sent": false,
+    "update_alerts_enabled": false,
+    "update_alerts_permanently_disabled": false
+  },
+  "Tempsens Instruments (India)": {
+    "open_date": "2026-08-20",
+    "close_date": "2026-08-24",
     "last_gmp": "0.0%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": false,
