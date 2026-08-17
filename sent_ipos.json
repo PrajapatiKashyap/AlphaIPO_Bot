@@ -100,12 +100,12 @@
     "listing_alert_sent": true
   },
   "Dhoot Transmission": {
-    "last_gmp": "+28.93%",
+    "last_gmp": "+30.08%",
     "last_retail_sub": "8.32x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
-    "listing_alert_sent": false,
+    "listing_alert_sent": true,
     "open_date": "2026-08-10",
     "close_date": "2026-08-12",
     "update_alerts_enabled": true,
@@ -150,7 +150,7 @@
   "Behari Lal Engineering": {
     "open_date": "2026-08-12",
     "close_date": "2026-08-14",
-    "last_gmp": "+29.12%",
+    "last_gmp": "+29.47%",
     "last_retail_sub": "54.12x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -174,12 +174,12 @@
   "Molbio Diagnostics": {
     "open_date": "2026-08-10",
     "close_date": "2026-08-12",
-    "last_gmp": "+15.49%",
+    "last_gmp": "+14.87%",
     "last_retail_sub": "12.97x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
-    "listing_alert_sent": false,
+    "listing_alert_sent": true,
     "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
   },
@@ -198,10 +198,10 @@
   "Lalithaa Jewellery Mart": {
     "open_date": "2026-08-17",
     "close_date": "2026-08-19",
-    "last_gmp": "+12.94%",
+    "last_gmp": "+14.68%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
-    "open_alert_sent": false,
+    "open_alert_sent": true,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
     "update_alerts_enabled": true,
@@ -222,7 +222,7 @@
   "Sunshine Pictures": {
     "open_date": "2026-08-18",
     "close_date": "2026-08-20",
-    "last_gmp": "+14.72%",
+    "last_gmp": "+15.0%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -234,7 +234,7 @@
   "Horizon Industrial Parks": {
     "open_date": "2026-08-17",
     "close_date": "2026-08-19",
-    "last_gmp": "+6.67%",
+    "last_gmp": "+5.83%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
