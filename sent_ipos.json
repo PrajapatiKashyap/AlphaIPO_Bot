@@ -198,7 +198,7 @@
   "Lalithaa Jewellery Mart": {
     "open_date": "2026-08-17",
     "close_date": "2026-08-19",
-    "last_gmp": "+26.87%",
+    "last_gmp": "+29.85%",
     "last_retail_sub": "12.51x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -210,8 +210,8 @@
   "Shankesh Jewellers": {
     "open_date": "2026-08-18",
     "close_date": "2026-08-20",
-    "last_gmp": "+2.69%",
-    "last_retail_sub": "1.13x",
+    "last_gmp": "+1.08%",
+    "last_retail_sub": "1.43x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
@@ -222,8 +222,8 @@
   "Sunshine Pictures": {
     "open_date": "2026-08-18",
     "close_date": "2026-08-20",
-    "last_gmp": "+21.39%",
-    "last_retail_sub": "21.61x",
+    "last_gmp": "+21.94%",
+    "last_retail_sub": "29.99x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
@@ -234,7 +234,7 @@
   "Horizon Industrial Parks": {
     "open_date": "2026-08-17",
     "close_date": "2026-08-19",
-    "last_gmp": "+2.17%",
+    "last_gmp": "+3.17%",
     "last_retail_sub": "1.02x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -258,8 +258,8 @@
   "Gaja Alternative Asset Management": {
     "open_date": "2026-08-19",
     "close_date": "2026-08-21",
-    "last_gmp": "+14.37%",
-    "last_retail_sub": "1.27x",
+    "last_gmp": "+8.75%",
+    "last_retail_sub": "1.88x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": false,
@@ -270,8 +270,8 @@
   "Tempsens Instruments (India)": {
     "open_date": "2026-08-20",
     "close_date": "2026-08-24",
-    "last_gmp": "+73.33%",
-    "last_retail_sub": "N/A",
+    "last_gmp": "+77.33%",
+    "last_retail_sub": "2.06x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": false,
@@ -282,7 +282,7 @@
   "Augmont Enterprises": {
     "open_date": "2026-08-21",
     "close_date": "2026-08-25",
-    "last_gmp": "+35.53%",
+    "last_gmp": "+36.17%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -294,7 +294,7 @@
   "Hy-Tech Engineers": {
     "open_date": "2026-08-24",
     "close_date": "2026-08-27",
-    "last_gmp": "+9.43%",
+    "last_gmp": "+3.77%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -306,13 +306,37 @@
   "Symbiotec Pharmalab": {
     "open_date": "2026-08-24",
     "close_date": "2026-08-27",
-    "last_gmp": "+22.27%",
+    "last_gmp": "+24.29%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
     "update_alerts_enabled": true,
+    "update_alerts_permanently_disabled": false
+  },
+  "Rays of Belief": {
+    "open_date": "2026-09-01",
+    "close_date": "2026-09-03",
+    "last_gmp": "0.0%",
+    "last_retail_sub": "N/A",
+    "new_ipo_alert_sent": false,
+    "open_alert_sent": false,
+    "closing_alert_sent": false,
+    "listing_alert_sent": false,
+    "update_alerts_enabled": false,
+    "update_alerts_permanently_disabled": false
+  },
+  "Annu Projects": {
+    "open_date": "2026-08-25",
+    "close_date": "2026-08-28",
+    "last_gmp": "0.0%",
+    "last_retail_sub": "N/A",
+    "new_ipo_alert_sent": false,
+    "open_alert_sent": false,
+    "closing_alert_sent": false,
+    "listing_alert_sent": false,
+    "update_alerts_enabled": false,
     "update_alerts_permanently_disabled": false
   }
 }
