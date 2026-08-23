@@ -198,7 +198,7 @@
   "Lalithaa Jewellery Mart": {
     "open_date": "2026-08-17",
     "close_date": "2026-08-19",
-    "last_gmp": "+38.31%",
+    "last_gmp": "+35.82%",
     "last_retail_sub": "12.51x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -234,7 +234,7 @@
   "Horizon Industrial Parks": {
     "open_date": "2026-08-17",
     "close_date": "2026-08-19",
-    "last_gmp": "+5.0%",
+    "last_gmp": "+2.5%",
     "last_retail_sub": "1.02x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -258,7 +258,7 @@
   "Gaja Alternative Asset Management": {
     "open_date": "2026-08-19",
     "close_date": "2026-08-21",
-    "last_gmp": "+10.62%",
+    "last_gmp": "+10.78%",
     "last_retail_sub": "11.61x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -282,7 +282,7 @@
   "Augmont Enterprises": {
     "open_date": "2026-08-21",
     "close_date": "2026-08-25",
-    "last_gmp": "+50.13%",
+    "last_gmp": "+48.22%",
     "last_retail_sub": "2.94x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -306,7 +306,7 @@
   "Symbiotec Pharmalab": {
     "open_date": "2026-08-24",
     "close_date": "2026-08-27",
-    "last_gmp": "+41.5%",
+    "last_gmp": "+41.4%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -350,5 +350,17 @@
     "listing_alert_sent": false,
     "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
+  },
+  "Priority Jewels": {
+    "open_date": "",
+    "close_date": "",
+    "last_gmp": "0.0%",
+    "last_retail_sub": "N/A",
+    "new_ipo_alert_sent": false,
+    "open_alert_sent": true,
+    "closing_alert_sent": true,
+    "listing_alert_sent": true,
+    "update_alerts_enabled": false,
+    "update_alerts_permanently_disabled": ""
   }
 }
