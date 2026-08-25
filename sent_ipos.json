@@ -246,8 +246,8 @@
   "Skyways Air": {
     "open_date": "2026-08-24",
     "close_date": "2026-08-27",
-    "last_gmp": "+23.19%",
-    "last_retail_sub": "1.66x",
+    "last_gmp": "+21.01%",
+    "last_retail_sub": "2.28x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": false,
@@ -258,7 +258,7 @@
   "Gaja Alternative Asset Management": {
     "open_date": "2026-08-19",
     "close_date": "2026-08-21",
-    "last_gmp": "+9.69%",
+    "last_gmp": "+11.56%",
     "last_retail_sub": "11.61x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -270,7 +270,7 @@
   "Tempsens Instruments (India)": {
     "open_date": "2026-08-20",
     "close_date": "2026-08-24",
-    "last_gmp": "+105.67%",
+    "last_gmp": "+102.33%",
     "last_retail_sub": "61.00x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -282,8 +282,8 @@
   "Augmont Enterprises": {
     "open_date": "2026-08-21",
     "close_date": "2026-08-25",
-    "last_gmp": "+41.24%",
-    "last_retail_sub": "14.08x",
+    "last_gmp": "+40.61%",
+    "last_retail_sub": "18.69x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
@@ -295,7 +295,7 @@
     "open_date": "2026-08-24",
     "close_date": "2026-08-27",
     "last_gmp": "+56.6%",
-    "last_retail_sub": "11.53x",
+    "last_retail_sub": "16.83x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": false,
@@ -306,8 +306,8 @@
   "Symbiotec Pharmalab": {
     "open_date": "2026-08-24",
     "close_date": "2026-08-27",
-    "last_gmp": "+34.41%",
-    "last_retail_sub": "1.01x",
+    "last_gmp": "+35.43%",
+    "last_retail_sub": "1.38x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": false,
@@ -331,7 +331,7 @@
     "open_date": "2026-08-25",
     "close_date": "2026-08-28",
     "last_gmp": "0.0%",
-    "last_retail_sub": "N/A",
+    "last_retail_sub": "0.07x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
@@ -342,7 +342,7 @@
   "Lumino Industries": {
     "open_date": "2026-08-27",
     "close_date": "2026-08-31",
-    "last_gmp": "+57.32%",
+    "last_gmp": "+59.76%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -362,5 +362,17 @@
     "listing_alert_sent": true,
     "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": ""
+  },
+  "ESDS Software Solution": {
+    "open_date": "2026-08-28",
+    "close_date": "2026-09-01",
+    "last_gmp": "+58.28%",
+    "last_retail_sub": "N/A",
+    "new_ipo_alert_sent": true,
+    "open_alert_sent": false,
+    "closing_alert_sent": false,
+    "listing_alert_sent": false,
+    "update_alerts_enabled": true,
+    "update_alerts_permanently_disabled": false
   }
 }
