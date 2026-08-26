@@ -247,7 +247,7 @@
     "open_date": "2026-08-24",
     "close_date": "2026-08-27",
     "last_gmp": "+21.01%",
-    "last_retail_sub": "3.54x",
+    "last_retail_sub": "5.94x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": false,
@@ -270,7 +270,7 @@
   "Tempsens Instruments (India)": {
     "open_date": "2026-08-20",
     "close_date": "2026-08-24",
-    "last_gmp": "+104.0%",
+    "last_gmp": "+100.0%",
     "last_retail_sub": "61.00x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -282,7 +282,7 @@
   "Augmont Enterprises": {
     "open_date": "2026-08-21",
     "close_date": "2026-08-25",
-    "last_gmp": "+39.97%",
+    "last_gmp": "+40.61%",
     "last_retail_sub": "32.64x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -294,8 +294,8 @@
   "Hy-Tech Engineers": {
     "open_date": "2026-08-24",
     "close_date": "2026-08-27",
-    "last_gmp": "+56.6%",
-    "last_retail_sub": "28.00x",
+    "last_gmp": "+75.47%",
+    "last_retail_sub": "55.55x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": false,
@@ -306,8 +306,8 @@
   "Symbiotec Pharmalab": {
     "open_date": "2026-08-24",
     "close_date": "2026-08-27",
-    "last_gmp": "+35.63%",
-    "last_retail_sub": "2.22x",
+    "last_gmp": "+34.41%",
+    "last_retail_sub": "4.41x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": false,
@@ -330,8 +330,8 @@
   "Annu Projects": {
     "open_date": "2026-08-25",
     "close_date": "2026-08-28",
-    "last_gmp": "0.0%",
-    "last_retail_sub": "0.28x",
+    "last_gmp": "+4.04%",
+    "last_retail_sub": "0.45x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
@@ -366,7 +366,7 @@
   "ESDS Software Solution": {
     "open_date": "2026-08-28",
     "close_date": "2026-09-01",
-    "last_gmp": "+65.27%",
+    "last_gmp": "+76.92%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -378,6 +378,18 @@
   "Pernia's Pop-up Studio": {
     "open_date": "2026-08-31",
     "close_date": "2026-09-02",
+    "last_gmp": "0.0%",
+    "last_retail_sub": "N/A",
+    "new_ipo_alert_sent": false,
+    "open_alert_sent": false,
+    "closing_alert_sent": false,
+    "listing_alert_sent": false,
+    "update_alerts_enabled": false,
+    "update_alerts_permanently_disabled": false
+  },
+  "Deepa Jewellers": {
+    "open_date": "2026-09-01",
+    "close_date": "2026-09-03",
     "last_gmp": "0.0%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": false,
