@@ -246,8 +246,8 @@
   "Skyways Air": {
     "open_date": "2026-08-24",
     "close_date": "2026-08-27",
-    "last_gmp": "+30.43%",
-    "last_retail_sub": "6.97x",
+    "last_gmp": "+33.33%",
+    "last_retail_sub": "20.16x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
@@ -270,7 +270,7 @@
   "Tempsens Instruments (India)": {
     "open_date": "2026-08-20",
     "close_date": "2026-08-24",
-    "last_gmp": "+101.0%",
+    "last_gmp": "+102.33%",
     "last_retail_sub": "61.00x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -282,7 +282,7 @@
   "Augmont Enterprises": {
     "open_date": "2026-08-21",
     "close_date": "2026-08-25",
-    "last_gmp": "+39.97%",
+    "last_gmp": "+38.07%",
     "last_retail_sub": "32.64x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -294,8 +294,8 @@
   "Hy-Tech Engineers": {
     "open_date": "2026-08-24",
     "close_date": "2026-08-27",
-    "last_gmp": "+83.02%",
-    "last_retail_sub": "66.80x",
+    "last_gmp": "+84.91%",
+    "last_retail_sub": "149.15x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
@@ -306,8 +306,8 @@
   "Symbiotec Pharmalab": {
     "open_date": "2026-08-24",
     "close_date": "2026-08-27",
-    "last_gmp": "+28.85%",
-    "last_retail_sub": "5.38x",
+    "last_gmp": "+26.32%",
+    "last_retail_sub": "11.63x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
@@ -318,7 +318,7 @@
   "Rays of Belief": {
     "open_date": "2026-09-01",
     "close_date": "2026-09-03",
-    "last_gmp": "+7.53%",
+    "last_gmp": "+4.18%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -330,8 +330,8 @@
   "Annu Projects": {
     "open_date": "2026-08-25",
     "close_date": "2026-08-28",
-    "last_gmp": "+4.04%",
-    "last_retail_sub": "0.51x",
+    "last_gmp": "+6.06%",
+    "last_retail_sub": "0.71x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
@@ -342,8 +342,8 @@
   "Lumino Industries": {
     "open_date": "2026-08-27",
     "close_date": "2026-08-31",
-    "last_gmp": "+60.98%",
-    "last_retail_sub": "N/A",
+    "last_gmp": "+68.29%",
+    "last_retail_sub": "1.61x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": false,
@@ -354,7 +354,7 @@
   "Priority Jewels": {
     "open_date": "",
     "close_date": "",
-    "last_gmp": "+10.0%",
+    "last_gmp": "+20.5%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -366,7 +366,7 @@
   "ESDS Software Solution": {
     "open_date": "2026-08-28",
     "close_date": "2026-09-01",
-    "last_gmp": "+85.08%",
+    "last_gmp": "+81.12%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -390,6 +390,18 @@
   "Deepa Jewellers": {
     "open_date": "2026-09-01",
     "close_date": "2026-09-03",
+    "last_gmp": "+12.43%",
+    "last_retail_sub": "N/A",
+    "new_ipo_alert_sent": true,
+    "open_alert_sent": false,
+    "closing_alert_sent": false,
+    "listing_alert_sent": false,
+    "update_alerts_enabled": true,
+    "update_alerts_permanently_disabled": false
+  },
+  "Purple Style Labs": {
+    "open_date": "2026-08-31",
+    "close_date": "2026-09-02",
     "last_gmp": "0.0%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": false,
