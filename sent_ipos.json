@@ -246,7 +246,7 @@
   "Skyways Air": {
     "open_date": "2026-08-24",
     "close_date": "2026-08-27",
-    "last_gmp": "+31.88%",
+    "last_gmp": "+27.54%",
     "last_retail_sub": "25.40x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -282,7 +282,7 @@
   "Augmont Enterprises": {
     "open_date": "2026-08-21",
     "close_date": "2026-08-25",
-    "last_gmp": "+38.71%",
+    "last_gmp": "+35.53%",
     "last_retail_sub": "32.64x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -306,7 +306,7 @@
   "Symbiotec Pharmalab": {
     "open_date": "2026-08-24",
     "close_date": "2026-08-27",
-    "last_gmp": "+27.33%",
+    "last_gmp": "+26.32%",
     "last_retail_sub": "13.69x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -318,7 +318,7 @@
   "Rays of Belief": {
     "open_date": "2026-09-01",
     "close_date": "2026-09-03",
-    "last_gmp": "+4.18%",
+    "last_gmp": "+2.93%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -330,8 +330,8 @@
   "Annu Projects": {
     "open_date": "2026-08-25",
     "close_date": "2026-08-28",
-    "last_gmp": "+7.07%",
-    "last_retail_sub": "0.81x",
+    "last_gmp": "+0.51%",
+    "last_retail_sub": "2.15x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
@@ -342,8 +342,8 @@
   "Lumino Industries": {
     "open_date": "2026-08-27",
     "close_date": "2026-08-31",
-    "last_gmp": "+68.29%",
-    "last_retail_sub": "2.08x",
+    "last_gmp": "+71.95%",
+    "last_retail_sub": "5.64x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": false,
@@ -355,7 +355,7 @@
     "open_date": "",
     "close_date": "",
     "last_gmp": "+18.5%",
-    "last_retail_sub": "N/A",
+    "last_retail_sub": "2.30x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
@@ -366,8 +366,8 @@
   "ESDS Software Solution": {
     "open_date": "2026-08-28",
     "close_date": "2026-09-01",
-    "last_gmp": "+75.76%",
-    "last_retail_sub": "N/A",
+    "last_gmp": "+78.09%",
+    "last_retail_sub": "2.18x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": false,
