@@ -246,7 +246,7 @@
   "Skyways Air": {
     "open_date": "2026-08-24",
     "close_date": "2026-08-27",
-    "last_gmp": "+28.62%",
+    "last_gmp": "+26.09%",
     "last_retail_sub": "25.40x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -294,7 +294,7 @@
   "Hy-Tech Engineers": {
     "open_date": "2026-08-24",
     "close_date": "2026-08-27",
-    "last_gmp": "+81.13%",
+    "last_gmp": "+79.25%",
     "last_retail_sub": "175.10x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -306,7 +306,7 @@
   "Symbiotec Pharmalab": {
     "open_date": "2026-08-24",
     "close_date": "2026-08-27",
-    "last_gmp": "+24.29%",
+    "last_gmp": "+20.75%",
     "last_retail_sub": "13.69x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -318,7 +318,7 @@
   "Rays of Belief": {
     "open_date": "2026-09-01",
     "close_date": "2026-09-03",
-    "last_gmp": "+14.64%",
+    "last_gmp": "+12.55%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -342,8 +342,8 @@
   "Lumino Industries": {
     "open_date": "2026-08-27",
     "close_date": "2026-08-31",
-    "last_gmp": "+74.39%",
-    "last_retail_sub": "6.87x",
+    "last_gmp": "+65.85%",
+    "last_retail_sub": "31.67x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
@@ -355,7 +355,7 @@
     "open_date": "",
     "close_date": "",
     "last_gmp": "+22.5%",
-    "last_retail_sub": "3.07x",
+    "last_retail_sub": "30.44x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
@@ -366,8 +366,8 @@
   "ESDS Software Solution": {
     "open_date": "2026-08-28",
     "close_date": "2026-09-01",
-    "last_gmp": "+78.09%",
-    "last_retail_sub": "2.84x",
+    "last_gmp": "+75.52%",
+    "last_retail_sub": "16.29x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": false,
@@ -390,7 +390,7 @@
   "Deepa Jewellers": {
     "open_date": "2026-09-01",
     "close_date": "2026-09-03",
-    "last_gmp": "+25.42%",
+    "last_gmp": "+23.16%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -402,8 +402,8 @@
   "Purple Style Labs": {
     "open_date": "2026-08-31",
     "close_date": "2026-09-02",
-    "last_gmp": "+4.87%",
-    "last_retail_sub": "N/A",
+    "last_gmp": "+1.33%",
+    "last_retail_sub": "0.43x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
