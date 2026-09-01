@@ -246,7 +246,7 @@
   "Skyways Air": {
     "open_date": "2026-08-24",
     "close_date": "2026-08-27",
-    "last_gmp": "+23.19%",
+    "last_gmp": "+23.91%",
     "last_retail_sub": "25.40x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -294,7 +294,7 @@
   "Hy-Tech Engineers": {
     "open_date": "2026-08-24",
     "close_date": "2026-08-27",
-    "last_gmp": "+66.04%",
+    "last_gmp": "+73.58%",
     "last_retail_sub": "175.10x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -318,8 +318,8 @@
   "Rays of Belief": {
     "open_date": "2026-09-01",
     "close_date": "2026-09-03",
-    "last_gmp": "+20.08%",
-    "last_retail_sub": "N/A",
+    "last_gmp": "+15.9%",
+    "last_retail_sub": "6.20x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": false,
@@ -330,7 +330,7 @@
   "Annu Projects": {
     "open_date": "2026-08-25",
     "close_date": "2026-08-28",
-    "last_gmp": "-2.02%",
+    "last_gmp": "-5.05%",
     "last_retail_sub": "2.68x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -342,7 +342,7 @@
   "Lumino Industries": {
     "open_date": "2026-08-27",
     "close_date": "2026-08-31",
-    "last_gmp": "+58.54%",
+    "last_gmp": "+48.78%",
     "last_retail_sub": "40.27x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -354,8 +354,8 @@
   "Priority Jewels": {
     "open_date": "",
     "close_date": "",
-    "last_gmp": "+22.5%",
-    "last_retail_sub": "39.02x",
+    "last_gmp": "+12.5%",
+    "last_retail_sub": "105.17x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
@@ -366,8 +366,8 @@
   "ESDS Software Solution": {
     "open_date": "2026-08-28",
     "close_date": "2026-09-01",
-    "last_gmp": "+73.66%",
-    "last_retail_sub": "19.67x",
+    "last_gmp": "+60.61%",
+    "last_retail_sub": "40.18x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
@@ -390,8 +390,8 @@
   "Deepa Jewellers": {
     "open_date": "2026-09-01",
     "close_date": "2026-09-03",
-    "last_gmp": "+31.07%",
-    "last_retail_sub": "N/A",
+    "last_gmp": "+24.29%",
+    "last_retail_sub": "1.36x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": false,
@@ -402,8 +402,8 @@
   "Purple Style Labs": {
     "open_date": "2026-08-31",
     "close_date": "2026-09-02",
-    "last_gmp": "+1.22%",
-    "last_retail_sub": "0.56x",
+    "last_gmp": "+0.7%",
+    "last_retail_sub": "0.94x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
@@ -422,5 +422,17 @@
     "listing_alert_sent": true,
     "update_alerts_enabled": false,
     "update_alerts_permanently_disabled": ""
+  },
+  "Veegaland Developers": {
+    "open_date": "2026-09-10",
+    "close_date": "2026-09-15",
+    "last_gmp": "+10.0%",
+    "last_retail_sub": "N/A",
+    "new_ipo_alert_sent": true,
+    "open_alert_sent": false,
+    "closing_alert_sent": false,
+    "listing_alert_sent": false,
+    "update_alerts_enabled": true,
+    "update_alerts_permanently_disabled": false
   }
 }
