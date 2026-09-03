@@ -318,8 +318,8 @@
   "Rays of Belief": {
     "open_date": "2026-09-01",
     "close_date": "2026-09-03",
-    "last_gmp": "+19.67%",
-    "last_retail_sub": "18.67x",
+    "last_gmp": "+5.44%",
+    "last_retail_sub": "195.86x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
@@ -342,7 +342,7 @@
   "Lumino Industries": {
     "open_date": "2026-08-27",
     "close_date": "2026-08-31",
-    "last_gmp": "+48.17%",
+    "last_gmp": "+46.34%",
     "last_retail_sub": "40.27x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -366,7 +366,7 @@
   "ESDS Software Solution": {
     "open_date": "2026-08-28",
     "close_date": "2026-09-01",
-    "last_gmp": "+58.74%",
+    "last_gmp": "+54.78%",
     "last_retail_sub": "41.68x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -390,8 +390,8 @@
   "Deepa Jewellers": {
     "open_date": "2026-09-01",
     "close_date": "2026-09-03",
-    "last_gmp": "+15.82%",
-    "last_retail_sub": "4.85x",
+    "last_gmp": "+8.47%",
+    "last_retail_sub": "19.09x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
@@ -402,7 +402,7 @@
   "Purple Style Labs": {
     "open_date": "2026-08-31",
     "close_date": "2026-09-02",
-    "last_gmp": "+0.26%",
+    "last_gmp": "+0.35%",
     "last_retail_sub": "1.66x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -414,13 +414,13 @@
   "Kanohar Electricals": {
     "open_date": "",
     "close_date": "",
-    "last_gmp": "0.0%",
+    "last_gmp": "+25.32%",
     "last_retail_sub": "N/A",
-    "new_ipo_alert_sent": false,
+    "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
     "listing_alert_sent": true,
-    "update_alerts_enabled": false,
+    "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": ""
   },
   "Veegaland Developers": {
@@ -438,7 +438,7 @@
   "Pranav Constructions": {
     "open_date": "2026-09-07",
     "close_date": "2026-09-09",
-    "last_gmp": "+21.77%",
+    "last_gmp": "+24.19%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -453,6 +453,30 @@
     "last_gmp": "0.0%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": false,
+    "open_alert_sent": false,
+    "closing_alert_sent": false,
+    "listing_alert_sent": false,
+    "update_alerts_enabled": false,
+    "update_alerts_permanently_disabled": false
+  },
+  "Glass Wall Systems": {
+    "open_date": "2026-09-08",
+    "close_date": "2026-09-10",
+    "last_gmp": "+10.99%",
+    "last_retail_sub": "N/A",
+    "new_ipo_alert_sent": true,
+    "open_alert_sent": false,
+    "closing_alert_sent": false,
+    "listing_alert_sent": false,
+    "update_alerts_enabled": true,
+    "update_alerts_permanently_disabled": false
+  },
+  "Prasol Chemicals": {
+    "open_date": "2026-09-08",
+    "close_date": "2026-09-10",
+    "last_gmp": "+2.07%",
+    "last_retail_sub": "N/A",
+    "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
