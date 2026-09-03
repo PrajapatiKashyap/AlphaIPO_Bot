@@ -318,11 +318,11 @@
   "Rays of Belief": {
     "open_date": "2026-09-01",
     "close_date": "2026-09-03",
-    "last_gmp": "+13.39%",
-    "last_retail_sub": "17.92x",
+    "last_gmp": "+19.67%",
+    "last_retail_sub": "18.67x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
-    "closing_alert_sent": false,
+    "closing_alert_sent": true,
     "listing_alert_sent": false,
     "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
@@ -342,12 +342,12 @@
   "Lumino Industries": {
     "open_date": "2026-08-27",
     "close_date": "2026-08-31",
-    "last_gmp": "+42.68%",
+    "last_gmp": "+48.17%",
     "last_retail_sub": "40.27x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
-    "listing_alert_sent": false,
+    "listing_alert_sent": true,
     "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
   },
@@ -366,7 +366,7 @@
   "ESDS Software Solution": {
     "open_date": "2026-08-28",
     "close_date": "2026-09-01",
-    "last_gmp": "+57.11%",
+    "last_gmp": "+58.74%",
     "last_retail_sub": "41.68x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -391,10 +391,10 @@
     "open_date": "2026-09-01",
     "close_date": "2026-09-03",
     "last_gmp": "+15.82%",
-    "last_retail_sub": "4.66x",
+    "last_retail_sub": "4.85x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
-    "closing_alert_sent": false,
+    "closing_alert_sent": true,
     "listing_alert_sent": false,
     "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
@@ -402,14 +402,14 @@
   "Purple Style Labs": {
     "open_date": "2026-08-31",
     "close_date": "2026-09-02",
-    "last_gmp": "+0.17%",
-    "last_retail_sub": "1.64x",
+    "last_gmp": "+0.26%",
+    "last_retail_sub": "1.66x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
     "update_alerts_enabled": false,
-    "update_alerts_permanently_disabled": false
+    "update_alerts_permanently_disabled": true
   },
   "Kanohar Electricals": {
     "open_date": "",
@@ -438,7 +438,7 @@
   "Pranav Constructions": {
     "open_date": "2026-09-07",
     "close_date": "2026-09-09",
-    "last_gmp": "+20.16%",
+    "last_gmp": "+21.77%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
