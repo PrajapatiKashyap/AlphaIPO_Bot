@@ -318,7 +318,7 @@
   "Rays of Belief": {
     "open_date": "2026-09-01",
     "close_date": "2026-09-03",
-    "last_gmp": "+5.44%",
+    "last_gmp": "+5.02%",
     "last_retail_sub": "195.86x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -354,7 +354,7 @@
   "Priority Jewels": {
     "open_date": "",
     "close_date": "",
-    "last_gmp": "+15.0%",
+    "last_gmp": "+14.0%",
     "last_retail_sub": "106.76x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -366,12 +366,12 @@
   "ESDS Software Solution": {
     "open_date": "2026-08-28",
     "close_date": "2026-09-01",
-    "last_gmp": "+54.78%",
+    "last_gmp": "+57.58%",
     "last_retail_sub": "41.68x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
-    "listing_alert_sent": false,
+    "listing_alert_sent": true,
     "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
   },
@@ -390,7 +390,7 @@
   "Deepa Jewellers": {
     "open_date": "2026-09-01",
     "close_date": "2026-09-03",
-    "last_gmp": "+8.47%",
+    "last_gmp": "+10.17%",
     "last_retail_sub": "19.09x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -414,7 +414,7 @@
   "Kanohar Electricals": {
     "open_date": "",
     "close_date": "",
-    "last_gmp": "+25.32%",
+    "last_gmp": "+31.65%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -438,7 +438,7 @@
   "Pranav Constructions": {
     "open_date": "2026-09-07",
     "close_date": "2026-09-09",
-    "last_gmp": "+24.19%",
+    "last_gmp": "+25.0%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
