@@ -318,7 +318,7 @@
   "Rays of Belief": {
     "open_date": "2026-09-01",
     "close_date": "2026-09-03",
-    "last_gmp": "+7.11%",
+    "last_gmp": "+5.02%",
     "last_retail_sub": "195.86x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -390,7 +390,7 @@
   "Deepa Jewellers": {
     "open_date": "2026-09-01",
     "close_date": "2026-09-03",
-    "last_gmp": "+12.43%",
+    "last_gmp": "+10.73%",
     "last_retail_sub": "19.09x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -438,7 +438,7 @@
   "Pranav Constructions": {
     "open_date": "2026-09-07",
     "close_date": "2026-09-09",
-    "last_gmp": "+27.42%",
+    "last_gmp": "+29.84%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -462,7 +462,7 @@
   "Glass Wall Systems": {
     "open_date": "2026-09-08",
     "close_date": "2026-09-10",
-    "last_gmp": "+33.52%",
+    "last_gmp": "+35.71%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -474,7 +474,7 @@
   "Prasol Chemicals": {
     "open_date": "2026-09-08",
     "close_date": "2026-09-10",
-    "last_gmp": "+25.15%",
+    "last_gmp": "+24.41%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -486,9 +486,9 @@
   "Manipal Payment and Identity Solutions": {
     "open_date": "2026-09-09",
     "close_date": "2026-09-11",
-    "last_gmp": "0.0%",
+    "last_gmp": "+8.55%",
     "last_retail_sub": "N/A",
-    "new_ipo_alert_sent": false,
+    "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
@@ -498,31 +498,31 @@
   "Karamtara Engineering": {
     "open_date": "2026-09-09",
     "close_date": "2026-09-11",
-    "last_gmp": "+7.87%",
+    "last_gmp": "+15.75%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
-    "update_alerts_enabled": false,
+    "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
   },
   "LCC Projects": {
     "open_date": "2026-09-09",
     "close_date": "2026-09-11",
-    "last_gmp": "0.0%",
+    "last_gmp": "+11.64%",
     "last_retail_sub": "N/A",
-    "new_ipo_alert_sent": false,
+    "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
-    "update_alerts_enabled": false,
+    "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
   },
   "Rentomojo": {
     "open_date": "2026-09-09",
     "close_date": "2026-09-11",
-    "last_gmp": "+13.61%",
+    "last_gmp": "+23.51%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -542,5 +542,17 @@
     "listing_alert_sent": false,
     "update_alerts_enabled": false,
     "update_alerts_permanently_disabled": false
+  },
+  "NSE": {
+    "open_date": "",
+    "close_date": "",
+    "last_gmp": "0.0%",
+    "last_retail_sub": "N/A",
+    "new_ipo_alert_sent": false,
+    "open_alert_sent": true,
+    "closing_alert_sent": true,
+    "listing_alert_sent": true,
+    "update_alerts_enabled": false,
+    "update_alerts_permanently_disabled": ""
   }
 }
