@@ -318,7 +318,7 @@
   "Rays of Belief": {
     "open_date": "2026-09-01",
     "close_date": "2026-09-03",
-    "last_gmp": "+4.6%",
+    "last_gmp": "+6.28%",
     "last_retail_sub": "195.86x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -390,7 +390,7 @@
   "Deepa Jewellers": {
     "open_date": "2026-09-01",
     "close_date": "2026-09-03",
-    "last_gmp": "+10.73%",
+    "last_gmp": "+11.58%",
     "last_retail_sub": "19.09x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -402,7 +402,7 @@
   "Purple Style Labs": {
     "open_date": "2026-08-31",
     "close_date": "2026-09-02",
-    "last_gmp": "-0.87%",
+    "last_gmp": "-1.74%",
     "last_retail_sub": "1.66x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -414,7 +414,7 @@
   "Kanohar Electricals": {
     "open_date": "",
     "close_date": "",
-    "last_gmp": "+30.06%",
+    "last_gmp": "+32.44%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -426,7 +426,7 @@
   "Veegaland Developers": {
     "open_date": "2026-09-10",
     "close_date": "2026-09-15",
-    "last_gmp": "+15.71%",
+    "last_gmp": "+21.43%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -438,7 +438,7 @@
   "Pranav Constructions": {
     "open_date": "2026-09-07",
     "close_date": "2026-09-09",
-    "last_gmp": "+33.06%",
+    "last_gmp": "+34.68%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -462,7 +462,7 @@
   "Glass Wall Systems": {
     "open_date": "2026-09-08",
     "close_date": "2026-09-10",
-    "last_gmp": "+27.47%",
+    "last_gmp": "+17.58%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -474,7 +474,7 @@
   "Prasol Chemicals": {
     "open_date": "2026-09-08",
     "close_date": "2026-09-10",
-    "last_gmp": "+18.49%",
+    "last_gmp": "+17.01%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -486,7 +486,7 @@
   "Manipal Payment and Identity Solutions": {
     "open_date": "2026-09-09",
     "close_date": "2026-09-11",
-    "last_gmp": "+8.85%",
+    "last_gmp": "+7.37%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -498,7 +498,7 @@
   "Karamtara Engineering": {
     "open_date": "2026-09-09",
     "close_date": "2026-09-11",
-    "last_gmp": "+19.69%",
+    "last_gmp": "+21.65%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -522,7 +522,7 @@
   "Rentomojo": {
     "open_date": "2026-09-09",
     "close_date": "2026-09-11",
-    "last_gmp": "+38.37%",
+    "last_gmp": "+33.91%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -554,5 +554,17 @@
     "listing_alert_sent": true,
     "update_alerts_enabled": false,
     "update_alerts_permanently_disabled": ""
+  },
+  "Manika Plastech": {
+    "open_date": "2026-09-11",
+    "close_date": "2026-09-16",
+    "last_gmp": "0.0%",
+    "last_retail_sub": "N/A",
+    "new_ipo_alert_sent": false,
+    "open_alert_sent": false,
+    "closing_alert_sent": false,
+    "listing_alert_sent": false,
+    "update_alerts_enabled": false,
+    "update_alerts_permanently_disabled": false
   }
 }
