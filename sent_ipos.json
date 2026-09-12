@@ -414,7 +414,7 @@
   "Kanohar Electricals": {
     "open_date": "",
     "close_date": "",
-    "last_gmp": "+36.71%",
+    "last_gmp": "+37.97%",
     "last_retail_sub": "20.51x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -426,7 +426,7 @@
   "Veegaland Developers": {
     "open_date": "2026-09-10",
     "close_date": "2026-09-15",
-    "last_gmp": "+14.29%",
+    "last_gmp": "+10.71%",
     "last_retail_sub": "1.78x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -438,7 +438,7 @@
   "Pranav Constructions": {
     "open_date": "2026-09-07",
     "close_date": "2026-09-09",
-    "last_gmp": "+39.52%",
+    "last_gmp": "+36.29%",
     "last_retail_sub": "45.31x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -462,7 +462,7 @@
   "Glass Wall Systems": {
     "open_date": "2026-09-08",
     "close_date": "2026-09-10",
-    "last_gmp": "+26.37%",
+    "last_gmp": "+28.13%",
     "last_retail_sub": "33.18x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -498,7 +498,7 @@
   "Karamtara Engineering": {
     "open_date": "2026-09-09",
     "close_date": "2026-09-11",
-    "last_gmp": "+26.38%",
+    "last_gmp": "+27.17%",
     "last_retail_sub": "13.98x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -510,7 +510,7 @@
   "LCC Projects": {
     "open_date": "2026-09-09",
     "close_date": "2026-09-11",
-    "last_gmp": "+51.37%",
+    "last_gmp": "+46.58%",
     "last_retail_sub": "26.34x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -522,7 +522,7 @@
   "Rentomojo": {
     "open_date": "2026-09-09",
     "close_date": "2026-09-11",
-    "last_gmp": "+36.63%",
+    "last_gmp": "+39.85%",
     "last_retail_sub": "15.62x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -546,7 +546,7 @@
   "NSE": {
     "open_date": "",
     "close_date": "",
-    "last_gmp": "+12.21%",
+    "last_gmp": "+11.6%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -558,7 +558,7 @@
   "Manika Plastech": {
     "open_date": "2026-09-11",
     "close_date": "2026-09-16",
-    "last_gmp": "+16.28%",
+    "last_gmp": "+34.88%",
     "last_retail_sub": "2.24x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -594,7 +594,7 @@
   "SS Retail": {
     "open_date": "2026-09-16",
     "close_date": "2026-09-18",
-    "last_gmp": "+18.87%",
+    "last_gmp": "+25.0%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -606,13 +606,25 @@
   "Hero Motors": {
     "open_date": "2026-09-16",
     "close_date": "2026-09-18",
-    "last_gmp": "+11.9%",
+    "last_gmp": "+28.57%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
     "update_alerts_enabled": true,
+    "update_alerts_permanently_disabled": false
+  },
+  "A-One Steels": {
+    "open_date": "2026-09-24",
+    "close_date": "2026-09-28",
+    "last_gmp": "0.0%",
+    "last_retail_sub": "N/A",
+    "new_ipo_alert_sent": false,
+    "open_alert_sent": false,
+    "closing_alert_sent": false,
+    "listing_alert_sent": false,
+    "update_alerts_enabled": false,
     "update_alerts_permanently_disabled": false
   }
 }
