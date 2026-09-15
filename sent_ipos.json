@@ -414,7 +414,7 @@
   "Kanohar Electricals": {
     "open_date": "",
     "close_date": "",
-    "last_gmp": "+38.13%",
+    "last_gmp": "+37.97%",
     "last_retail_sub": "20.51x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -426,11 +426,11 @@
   "Veegaland Developers": {
     "open_date": "2026-09-10",
     "close_date": "2026-09-15",
-    "last_gmp": "+15.71%",
+    "last_gmp": "+14.29%",
     "last_retail_sub": "1.78x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
-    "closing_alert_sent": false,
+    "closing_alert_sent": true,
     "listing_alert_sent": false,
     "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
@@ -450,7 +450,7 @@
   "Asset Reconstruction": {
     "open_date": "2026-09-09",
     "close_date": "2026-09-11",
-    "last_gmp": "+11.51%",
+    "last_gmp": "+11.87%",
     "last_retail_sub": "3.39x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -606,7 +606,7 @@
   "Hero Motors": {
     "open_date": "2026-09-16",
     "close_date": "2026-09-18",
-    "last_gmp": "+28.57%",
+    "last_gmp": "+27.38%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
