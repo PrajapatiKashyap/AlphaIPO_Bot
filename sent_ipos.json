@@ -426,7 +426,7 @@
   "Veegaland Developers": {
     "open_date": "2026-09-10",
     "close_date": "2026-09-15",
-    "last_gmp": "+5.71%",
+    "last_gmp": "+3.57%",
     "last_retail_sub": "9.95x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -450,12 +450,12 @@
   "Asset Reconstruction": {
     "open_date": "2026-09-09",
     "close_date": "2026-09-11",
-    "last_gmp": "+7.19%",
+    "last_gmp": "+8.63%",
     "last_retail_sub": "3.39x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
-    "listing_alert_sent": false,
+    "listing_alert_sent": true,
     "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
   },
@@ -486,67 +486,67 @@
   "Manipal Payment and Identity Solutions": {
     "open_date": "2026-09-09",
     "close_date": "2026-09-11",
-    "last_gmp": "-4.42%",
+    "last_gmp": "-1.77%",
     "last_retail_sub": "2.19x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
-    "listing_alert_sent": false,
+    "listing_alert_sent": true,
     "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
   },
   "Karamtara Engineering": {
     "open_date": "2026-09-09",
     "close_date": "2026-09-11",
-    "last_gmp": "+17.91%",
+    "last_gmp": "+18.9%",
     "last_retail_sub": "13.98x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
-    "listing_alert_sent": false,
+    "listing_alert_sent": true,
     "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
   },
   "LCC Projects": {
     "open_date": "2026-09-09",
     "close_date": "2026-09-11",
-    "last_gmp": "+27.4%",
+    "last_gmp": "+24.66%",
     "last_retail_sub": "26.34x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
-    "listing_alert_sent": false,
+    "listing_alert_sent": true,
     "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
   },
   "Rentomojo": {
     "open_date": "2026-09-09",
     "close_date": "2026-09-11",
-    "last_gmp": "+24.5%",
+    "last_gmp": "+21.29%",
     "last_retail_sub": "15.62x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
-    "listing_alert_sent": false,
+    "listing_alert_sent": true,
     "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
   },
   "Steamhouse": {
     "open_date": "2026-09-09",
     "close_date": "2026-09-11",
-    "last_gmp": "+18.52%",
+    "last_gmp": "+16.67%",
     "last_retail_sub": "17.78x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
-    "listing_alert_sent": false,
+    "listing_alert_sent": true,
     "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
   },
   "NSE": {
     "open_date": "",
     "close_date": "",
-    "last_gmp": "+9.08%",
+    "last_gmp": "+7.0%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -582,7 +582,7 @@
   "Sonaselection India": {
     "open_date": "2026-09-17",
     "close_date": "2026-09-21",
-    "last_gmp": "+5.05%",
+    "last_gmp": "+7.07%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -594,7 +594,7 @@
   "SS Retail": {
     "open_date": "2026-09-16",
     "close_date": "2026-09-18",
-    "last_gmp": "+24.76%",
+    "last_gmp": "+18.87%",
     "last_retail_sub": "2.33x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -638,5 +638,17 @@
     "listing_alert_sent": true,
     "update_alerts_enabled": false,
     "update_alerts_permanently_disabled": true
+  },
+  "Varmora Granito": {
+    "open_date": "",
+    "close_date": "",
+    "last_gmp": "0.0%",
+    "last_retail_sub": "N/A",
+    "new_ipo_alert_sent": false,
+    "open_alert_sent": true,
+    "closing_alert_sent": true,
+    "listing_alert_sent": true,
+    "update_alerts_enabled": false,
+    "update_alerts_permanently_disabled": ""
   }
 }
