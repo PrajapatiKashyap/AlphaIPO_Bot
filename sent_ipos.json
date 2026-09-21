@@ -546,7 +546,7 @@
   "NSE": {
     "open_date": "",
     "close_date": "",
-    "last_gmp": "+2.75%",
+    "last_gmp": "+2.69%",
     "last_retail_sub": "0.69x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -558,12 +558,12 @@
   "Manika Plastech": {
     "open_date": "2026-09-11",
     "close_date": "2026-09-16",
-    "last_gmp": "+4.65%",
+    "last_gmp": "+2.33%",
     "last_retail_sub": "23.98x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
-    "listing_alert_sent": false,
+    "listing_alert_sent": true,
     "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
   },
@@ -582,7 +582,7 @@
   "Sonaselection India": {
     "open_date": "2026-09-17",
     "close_date": "2026-09-21",
-    "last_gmp": "+2.02%",
+    "last_gmp": "0.0%",
     "last_retail_sub": "0.37x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -618,7 +618,7 @@
   "A-One Steels": {
     "open_date": "2026-09-24",
     "close_date": "2026-09-28",
-    "last_gmp": "+15.8%",
+    "last_gmp": "+14.81%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -642,7 +642,7 @@
   "Varmora Granito": {
     "open_date": "",
     "close_date": "",
-    "last_gmp": "+8.11%",
+    "last_gmp": "+6.08%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -690,7 +690,7 @@
   "Adroit Industries": {
     "open_date": "2026-09-23",
     "close_date": "2026-09-25",
-    "last_gmp": "+26.12%",
+    "last_gmp": "+23.88%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
