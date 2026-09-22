@@ -546,7 +546,7 @@
   "NSE": {
     "open_date": "",
     "close_date": "",
-    "last_gmp": "+3.64%",
+    "last_gmp": "+2.41%",
     "last_retail_sub": "1.39x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -570,7 +570,7 @@
   "Jindal Supreme": {
     "open_date": "2026-09-16",
     "close_date": "2026-09-18",
-    "last_gmp": "+31.18%",
+    "last_gmp": "+29.03%",
     "last_retail_sub": "141.75x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -594,7 +594,7 @@
   "SS Retail": {
     "open_date": "2026-09-16",
     "close_date": "2026-09-18",
-    "last_gmp": "+33.02%",
+    "last_gmp": "+33.49%",
     "last_retail_sub": "35.81x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -606,7 +606,7 @@
   "Hero Motors": {
     "open_date": "2026-09-16",
     "close_date": "2026-09-18",
-    "last_gmp": "-2.38%",
+    "last_gmp": "-3.57%",
     "last_retail_sub": "8.62x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -618,7 +618,7 @@
   "A-One Steels": {
     "open_date": "2026-09-24",
     "close_date": "2026-09-28",
-    "last_gmp": "+14.81%",
+    "last_gmp": "+10.86%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -642,8 +642,8 @@
   "Varmora Granito": {
     "open_date": "",
     "close_date": "",
-    "last_gmp": "+6.08%",
-    "last_retail_sub": "N/A",
+    "last_gmp": "+2.7%",
+    "last_retail_sub": "0.20x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
@@ -666,7 +666,7 @@
   "Elevate Campuses": {
     "open_date": "2026-09-23",
     "close_date": "2026-09-25",
-    "last_gmp": "+4.42%",
+    "last_gmp": "+1.38%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -678,7 +678,7 @@
   "Swastika Infra": {
     "open_date": "2026-09-23",
     "close_date": "2026-09-25",
-    "last_gmp": "+4.32%",
+    "last_gmp": "+4.59%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -690,7 +690,7 @@
   "Adroit Industries": {
     "open_date": "2026-09-23",
     "close_date": "2026-09-25",
-    "last_gmp": "+23.88%",
+    "last_gmp": "+20.15%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -714,13 +714,49 @@
   "Moneyview": {
     "open_date": "2026-09-24",
     "close_date": "2026-09-28",
-    "last_gmp": "+14.71%",
+    "last_gmp": "+29.41%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
     "update_alerts_enabled": true,
+    "update_alerts_permanently_disabled": false
+  },
+  "Runwal Enterprises": {
+    "open_date": "2026-09-25",
+    "close_date": "2026-09-29",
+    "last_gmp": "0.0%",
+    "last_retail_sub": "N/A",
+    "new_ipo_alert_sent": false,
+    "open_alert_sent": false,
+    "closing_alert_sent": false,
+    "listing_alert_sent": false,
+    "update_alerts_enabled": false,
+    "update_alerts_permanently_disabled": false
+  },
+  "German Green Steel": {
+    "open_date": "2026-09-25",
+    "close_date": "2026-09-29",
+    "last_gmp": "+10.79%",
+    "last_retail_sub": "N/A",
+    "new_ipo_alert_sent": true,
+    "open_alert_sent": false,
+    "closing_alert_sent": false,
+    "listing_alert_sent": false,
+    "update_alerts_enabled": true,
+    "update_alerts_permanently_disabled": false
+  },
+  "Orient Cables": {
+    "open_date": "2026-09-25",
+    "close_date": "2026-09-29",
+    "last_gmp": "0.0%",
+    "last_retail_sub": "N/A",
+    "new_ipo_alert_sent": false,
+    "open_alert_sent": false,
+    "closing_alert_sent": false,
+    "listing_alert_sent": false,
+    "update_alerts_enabled": false,
     "update_alerts_permanently_disabled": false
   }
 }
