@@ -570,12 +570,12 @@
   "Jindal Supreme": {
     "open_date": "2026-09-16",
     "close_date": "2026-09-18",
-    "last_gmp": "+29.03%",
+    "last_gmp": "+31.18%",
     "last_retail_sub": "141.75x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
-    "listing_alert_sent": false,
+    "listing_alert_sent": true,
     "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
   },
@@ -594,12 +594,12 @@
   "SS Retail": {
     "open_date": "2026-09-16",
     "close_date": "2026-09-18",
-    "last_gmp": "+33.49%",
+    "last_gmp": "+37.74%",
     "last_retail_sub": "35.81x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
-    "listing_alert_sent": false,
+    "listing_alert_sent": true,
     "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
   },
@@ -611,14 +611,14 @@
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
-    "listing_alert_sent": false,
+    "listing_alert_sent": true,
     "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
   },
   "A-One Steels": {
     "open_date": "2026-09-24",
     "close_date": "2026-09-28",
-    "last_gmp": "+10.86%",
+    "last_gmp": "+12.35%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -642,8 +642,8 @@
   "Varmora Granito": {
     "open_date": "",
     "close_date": "",
-    "last_gmp": "+2.7%",
-    "last_retail_sub": "0.20x",
+    "last_gmp": "+2.03%",
+    "last_retail_sub": "0.21x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
@@ -654,13 +654,13 @@
   "ArMee Infotech": {
     "open_date": "2026-09-23",
     "close_date": "2026-09-25",
-    "last_gmp": "+3.2%",
+    "last_gmp": "+12.27%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
-    "open_alert_sent": false,
+    "open_alert_sent": true,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
-    "update_alerts_enabled": false,
+    "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
   },
   "Elevate Campuses": {
@@ -678,7 +678,7 @@
   "Swastika Infra": {
     "open_date": "2026-09-23",
     "close_date": "2026-09-25",
-    "last_gmp": "+4.59%",
+    "last_gmp": "+4.32%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -690,10 +690,10 @@
   "Adroit Industries": {
     "open_date": "2026-09-23",
     "close_date": "2026-09-25",
-    "last_gmp": "+20.15%",
+    "last_gmp": "+25.37%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
-    "open_alert_sent": false,
+    "open_alert_sent": true,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
     "update_alerts_enabled": true,
@@ -714,7 +714,7 @@
   "Moneyview": {
     "open_date": "2026-09-24",
     "close_date": "2026-09-28",
-    "last_gmp": "+29.41%",
+    "last_gmp": "+32.35%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -726,9 +726,9 @@
   "Runwal Enterprises": {
     "open_date": "2026-09-25",
     "close_date": "2026-09-29",
-    "last_gmp": "0.0%",
+    "last_gmp": "+5.9%",
     "last_retail_sub": "N/A",
-    "new_ipo_alert_sent": false,
+    "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
@@ -750,13 +750,13 @@
   "Orient Cables": {
     "open_date": "2026-09-25",
     "close_date": "2026-09-29",
-    "last_gmp": "0.0%",
+    "last_gmp": "+12.5%",
     "last_retail_sub": "N/A",
-    "new_ipo_alert_sent": false,
+    "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
-    "update_alerts_enabled": false,
+    "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
   }
 }
