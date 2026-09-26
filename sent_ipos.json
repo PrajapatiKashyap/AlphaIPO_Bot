@@ -666,31 +666,31 @@
   "Elevate Campuses": {
     "open_date": "2026-09-23",
     "close_date": "2026-09-25",
-    "last_gmp": "+0.41%",
+    "last_gmp": "+1.1%",
     "last_retail_sub": "1.07x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
     "update_alerts_enabled": false,
-    "update_alerts_permanently_disabled": false
+    "update_alerts_permanently_disabled": true
   },
   "Swastika Infra": {
     "open_date": "2026-09-23",
     "close_date": "2026-09-25",
     "last_gmp": "+2.43%",
-    "last_retail_sub": "5.46x",
+    "last_retail_sub": "5.64x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
     "update_alerts_enabled": false,
-    "update_alerts_permanently_disabled": false
+    "update_alerts_permanently_disabled": true
   },
   "Adroit Industries": {
     "open_date": "2026-09-23",
     "close_date": "2026-09-25",
-    "last_gmp": "+32.09%",
+    "last_gmp": "+35.07%",
     "last_retail_sub": "99.81x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -714,7 +714,7 @@
   "Moneyview": {
     "open_date": "2026-09-24",
     "close_date": "2026-09-28",
-    "last_gmp": "+41.18%",
+    "last_gmp": "+39.71%",
     "last_retail_sub": "5.41x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -726,8 +726,8 @@
   "Runwal Enterprises": {
     "open_date": "2026-09-25",
     "close_date": "2026-09-29",
-    "last_gmp": "+8.2%",
-    "last_retail_sub": "0.18x",
+    "last_gmp": "+5.25%",
+    "last_retail_sub": "0.19x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": false,
@@ -738,7 +738,7 @@
   "German Green Steel": {
     "open_date": "2026-09-25",
     "close_date": "2026-09-29",
-    "last_gmp": "+20.14%",
+    "last_gmp": "+17.99%",
     "last_retail_sub": "1.74x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -750,7 +750,7 @@
   "Orient Cables": {
     "open_date": "2026-09-25",
     "close_date": "2026-09-29",
-    "last_gmp": "+25.74%",
+    "last_gmp": "+29.41%",
     "last_retail_sub": "2.56x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -762,7 +762,7 @@
   "SRIT India": {
     "open_date": "2026-09-28",
     "close_date": "2026-09-30",
-    "last_gmp": "+16.92%",
+    "last_gmp": "+24.62%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
