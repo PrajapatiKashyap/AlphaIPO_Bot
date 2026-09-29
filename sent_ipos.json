@@ -618,7 +618,7 @@
   "A-One Steels": {
     "open_date": "2026-09-24",
     "close_date": "2026-09-28",
-    "last_gmp": "+6.91%",
+    "last_gmp": "+7.65%",
     "last_retail_sub": "9.11x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -678,7 +678,7 @@
   "Swastika Infra": {
     "open_date": "2026-09-23",
     "close_date": "2026-09-25",
-    "last_gmp": "+3.24%",
+    "last_gmp": "+3.78%",
     "last_retail_sub": "5.64x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -690,7 +690,7 @@
   "Adroit Industries": {
     "open_date": "2026-09-23",
     "close_date": "2026-09-25",
-    "last_gmp": "+43.28%",
+    "last_gmp": "+42.16%",
     "last_retail_sub": "99.81x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -702,8 +702,8 @@
   "Acevector": {
     "open_date": "2026-09-25",
     "close_date": "2026-09-29",
-    "last_gmp": "+6.25%",
-    "last_retail_sub": "1.43x",
+    "last_gmp": "0.0%",
+    "last_retail_sub": "4.83x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
@@ -726,8 +726,8 @@
   "Runwal Enterprises": {
     "open_date": "2026-09-25",
     "close_date": "2026-09-29",
-    "last_gmp": "+4.59%",
-    "last_retail_sub": "0.45x",
+    "last_gmp": "+0.98%",
+    "last_retail_sub": "1.15x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
@@ -738,8 +738,8 @@
   "German Green Steel": {
     "open_date": "2026-09-25",
     "close_date": "2026-09-29",
-    "last_gmp": "+17.63%",
-    "last_retail_sub": "6.47x",
+    "last_gmp": "+9.35%",
+    "last_retail_sub": "23.98x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
@@ -750,8 +750,8 @@
   "Orient Cables": {
     "open_date": "2026-09-25",
     "close_date": "2026-09-29",
-    "last_gmp": "+26.47%",
-    "last_retail_sub": "9.66x",
+    "last_gmp": "+28.31%",
+    "last_retail_sub": "32.21x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
@@ -762,8 +762,8 @@
   "SRIT India": {
     "open_date": "2026-09-28",
     "close_date": "2026-09-30",
-    "last_gmp": "+25.38%",
-    "last_retail_sub": "1.61x",
+    "last_gmp": "+18.46%",
+    "last_retail_sub": "6.05x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": false,
@@ -774,8 +774,8 @@
   "Shah Investor's Home": {
     "open_date": "2026-09-28",
     "close_date": "2026-09-30",
-    "last_gmp": "+8.38%",
-    "last_retail_sub": "0.24x",
+    "last_gmp": "+7.78%",
+    "last_retail_sub": "0.83x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
