@@ -618,7 +618,7 @@
   "A-One Steels": {
     "open_date": "2026-09-24",
     "close_date": "2026-09-28",
-    "last_gmp": "+8.64%",
+    "last_gmp": "+9.38%",
     "last_retail_sub": "9.11x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -702,7 +702,7 @@
   "Acevector": {
     "open_date": "2026-09-25",
     "close_date": "2026-09-29",
-    "last_gmp": "+3.44%",
+    "last_gmp": "+1.56%",
     "last_retail_sub": "4.83x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -714,7 +714,7 @@
   "Moneyview": {
     "open_date": "2026-09-24",
     "close_date": "2026-09-28",
-    "last_gmp": "+35.29%",
+    "last_gmp": "+42.65%",
     "last_retail_sub": "20.41x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -726,7 +726,7 @@
   "Runwal Enterprises": {
     "open_date": "2026-09-25",
     "close_date": "2026-09-29",
-    "last_gmp": "+0.66%",
+    "last_gmp": "0.0%",
     "last_retail_sub": "1.19x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -750,7 +750,7 @@
   "Orient Cables": {
     "open_date": "2026-09-25",
     "close_date": "2026-09-29",
-    "last_gmp": "+31.25%",
+    "last_gmp": "+32.35%",
     "last_retail_sub": "32.21x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -762,8 +762,8 @@
   "SRIT India": {
     "open_date": "2026-09-28",
     "close_date": "2026-09-30",
-    "last_gmp": "+23.85%",
-    "last_retail_sub": "6.05x",
+    "last_gmp": "+30.77%",
+    "last_retail_sub": "63.70x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
@@ -774,8 +774,8 @@
   "Shah Investor's Home": {
     "open_date": "2026-09-28",
     "close_date": "2026-09-30",
-    "last_gmp": "+8.98%",
-    "last_retail_sub": "0.90x",
+    "last_gmp": "+7.49%",
+    "last_retail_sub": "19.26x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
@@ -787,7 +787,7 @@
     "open_date": "2026-09-30",
     "close_date": "2026-10-05",
     "last_gmp": "+6.67%",
-    "last_retail_sub": "N/A",
+    "last_retail_sub": "0.52x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": false,
@@ -798,8 +798,8 @@
   "Vishal Nirmiti": {
     "open_date": "2026-09-30",
     "close_date": "2026-10-05",
-    "last_gmp": "+2.73%",
-    "last_retail_sub": "N/A",
+    "last_gmp": "+4.55%",
+    "last_retail_sub": "0.06x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
