@@ -618,12 +618,12 @@
   "A-One Steels": {
     "open_date": "2026-09-24",
     "close_date": "2026-09-28",
-    "last_gmp": "+9.38%",
+    "last_gmp": "+11.6%",
     "last_retail_sub": "9.11x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
-    "listing_alert_sent": false,
+    "listing_alert_sent": true,
     "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
   },
@@ -702,7 +702,7 @@
   "Acevector": {
     "open_date": "2026-09-25",
     "close_date": "2026-09-29",
-    "last_gmp": "+1.56%",
+    "last_gmp": "+3.12%",
     "last_retail_sub": "4.83x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -714,12 +714,12 @@
   "Moneyview": {
     "open_date": "2026-09-24",
     "close_date": "2026-09-28",
-    "last_gmp": "+42.65%",
+    "last_gmp": "+42.94%",
     "last_retail_sub": "20.41x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
-    "listing_alert_sent": false,
+    "listing_alert_sent": true,
     "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
   },
@@ -738,7 +738,7 @@
   "German Green Steel": {
     "open_date": "2026-09-25",
     "close_date": "2026-09-29",
-    "last_gmp": "+9.35%",
+    "last_gmp": "+8.99%",
     "last_retail_sub": "23.98x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -750,7 +750,7 @@
   "Orient Cables": {
     "open_date": "2026-09-25",
     "close_date": "2026-09-29",
-    "last_gmp": "+32.35%",
+    "last_gmp": "+33.09%",
     "last_retail_sub": "32.21x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -762,7 +762,7 @@
   "SRIT India": {
     "open_date": "2026-09-28",
     "close_date": "2026-09-30",
-    "last_gmp": "+30.77%",
+    "last_gmp": "+36.92%",
     "last_retail_sub": "63.70x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -781,7 +781,7 @@
     "closing_alert_sent": false,
     "listing_alert_sent": false,
     "update_alerts_enabled": false,
-    "update_alerts_permanently_disabled": false
+    "update_alerts_permanently_disabled": true
   },
   "Nityas Gems & Jewellery": {
     "open_date": "2026-09-30",
@@ -798,13 +798,13 @@
   "Vishal Nirmiti": {
     "open_date": "2026-09-30",
     "close_date": "2026-10-05",
-    "last_gmp": "+4.55%",
+    "last_gmp": "+15.91%",
     "last_retail_sub": "0.06x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
-    "update_alerts_enabled": false,
+    "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
   }
 }
