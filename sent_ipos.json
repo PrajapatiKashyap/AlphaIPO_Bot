@@ -762,7 +762,7 @@
   "SRIT India": {
     "open_date": "2026-09-28",
     "close_date": "2026-09-30",
-    "last_gmp": "+38.46%",
+    "last_gmp": "+36.15%",
     "last_retail_sub": "63.70x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -774,7 +774,7 @@
   "Shah Investor's Home": {
     "open_date": "2026-09-28",
     "close_date": "2026-09-30",
-    "last_gmp": "+7.78%",
+    "last_gmp": "+7.19%",
     "last_retail_sub": "19.26x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -787,7 +787,7 @@
     "open_date": "2026-09-30",
     "close_date": "2026-10-05",
     "last_gmp": "+4.0%",
-    "last_retail_sub": "1.14x",
+    "last_retail_sub": "1.32x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": false,
@@ -798,7 +798,7 @@
   "Vishal Nirmiti": {
     "open_date": "2026-09-30",
     "close_date": "2026-10-05",
-    "last_gmp": "+10.0%",
+    "last_gmp": "+9.09%",
     "last_retail_sub": "0.49x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
