@@ -702,7 +702,7 @@
   "Acevector": {
     "open_date": "2026-09-25",
     "close_date": "2026-09-29",
-    "last_gmp": "+3.12%",
+    "last_gmp": "0.0%",
     "last_retail_sub": "4.83x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -750,7 +750,7 @@
   "Orient Cables": {
     "open_date": "2026-09-25",
     "close_date": "2026-09-29",
-    "last_gmp": "+44.49%",
+    "last_gmp": "+40.44%",
     "last_retail_sub": "32.21x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -762,7 +762,7 @@
   "SRIT India": {
     "open_date": "2026-09-28",
     "close_date": "2026-09-30",
-    "last_gmp": "+38.46%",
+    "last_gmp": "+43.85%",
     "last_retail_sub": "63.70x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -774,7 +774,7 @@
   "Shah Investor's Home": {
     "open_date": "2026-09-28",
     "close_date": "2026-09-30",
-    "last_gmp": "+10.18%",
+    "last_gmp": "+9.88%",
     "last_retail_sub": "19.26x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -786,8 +786,8 @@
   "Nityas Gems & Jewellery": {
     "open_date": "2026-09-30",
     "close_date": "2026-10-05",
-    "last_gmp": "+2.67%",
-    "last_retail_sub": "1.32x",
+    "last_gmp": "+1.33%",
+    "last_retail_sub": "4.07x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
@@ -798,8 +798,8 @@
   "Vishal Nirmiti": {
     "open_date": "2026-09-30",
     "close_date": "2026-10-05",
-    "last_gmp": "+9.09%",
-    "last_retail_sub": "0.49x",
+    "last_gmp": "+0.91%",
+    "last_retail_sub": "1.75x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": true,
