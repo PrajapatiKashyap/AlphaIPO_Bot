@@ -762,7 +762,7 @@
   "SRIT India": {
     "open_date": "2026-09-28",
     "close_date": "2026-09-30",
-    "last_gmp": "+47.69%",
+    "last_gmp": "+45.38%",
     "last_retail_sub": "63.70x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -818,5 +818,17 @@
     "listing_alert_sent": true,
     "update_alerts_enabled": false,
     "update_alerts_permanently_disabled": ""
+  },
+  "HD Fire Protect": {
+    "open_date": "2026-10-13",
+    "close_date": "2026-10-15",
+    "last_gmp": "0.0%",
+    "last_retail_sub": "N/A",
+    "new_ipo_alert_sent": false,
+    "open_alert_sent": false,
+    "closing_alert_sent": false,
+    "listing_alert_sent": false,
+    "update_alerts_enabled": false,
+    "update_alerts_permanently_disabled": false
   }
 }
