@@ -822,13 +822,13 @@
   "HD Fire Protect": {
     "open_date": "2026-10-13",
     "close_date": "2026-10-15",
-    "last_gmp": "0.0%",
+    "last_gmp": "+22.14%",
     "last_retail_sub": "N/A",
-    "new_ipo_alert_sent": false,
+    "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
-    "update_alerts_enabled": false,
+    "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
   }
 }
