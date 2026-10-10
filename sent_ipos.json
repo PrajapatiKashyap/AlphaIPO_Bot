@@ -822,7 +822,7 @@
   "HD Fire Protect": {
     "open_date": "2026-10-13",
     "close_date": "2026-10-15",
-    "last_gmp": "+27.68%",
+    "last_gmp": "+27.31%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -834,7 +834,7 @@
   "Fusion CX": {
     "open_date": "2026-10-14",
     "close_date": "2026-10-16",
-    "last_gmp": "+17.3%",
+    "last_gmp": "+19.03%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -842,5 +842,17 @@
     "listing_alert_sent": false,
     "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
+  },
+  "Bonfigloli Transmissions": {
+    "open_date": "",
+    "close_date": "",
+    "last_gmp": "0.0%",
+    "last_retail_sub": "N/A",
+    "new_ipo_alert_sent": false,
+    "open_alert_sent": true,
+    "closing_alert_sent": true,
+    "listing_alert_sent": true,
+    "update_alerts_enabled": false,
+    "update_alerts_permanently_disabled": ""
   }
 }
