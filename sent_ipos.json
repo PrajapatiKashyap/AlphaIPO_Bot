@@ -822,10 +822,10 @@
   "HD Fire Protect": {
     "open_date": "2026-10-13",
     "close_date": "2026-10-15",
-    "last_gmp": "+30.63%",
+    "last_gmp": "+31.73%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
-    "open_alert_sent": false,
+    "open_alert_sent": true,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
     "update_alerts_enabled": true,
@@ -834,7 +834,7 @@
   "Fusion CX": {
     "open_date": "2026-10-14",
     "close_date": "2026-10-16",
-    "last_gmp": "+3.81%",
+    "last_gmp": "+6.57%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -858,7 +858,7 @@
   "Bonfiglioli Transmissions": {
     "open_date": "",
     "close_date": "",
-    "last_gmp": "+23.89%",
+    "last_gmp": "+26.45%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -870,7 +870,7 @@
   "Sahajanand Medical Technologies": {
     "open_date": "2026-10-15",
     "close_date": "2026-10-19",
-    "last_gmp": "+11.63%",
+    "last_gmp": "+10.17%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -882,7 +882,7 @@
   "Tonbo Imaging India": {
     "open_date": "2026-10-15",
     "close_date": "2026-10-19",
-    "last_gmp": "+56.43%",
+    "last_gmp": "+60.71%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -894,13 +894,13 @@
   "Zetwerk": {
     "open_date": "2026-10-15",
     "close_date": "2026-10-19",
-    "last_gmp": "+6.29%",
+    "last_gmp": "+10.6%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
-    "update_alerts_enabled": false,
+    "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
   }
 }
