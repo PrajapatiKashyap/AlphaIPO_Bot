@@ -810,7 +810,7 @@
   "Jio Platforms": {
     "open_date": "",
     "close_date": "",
-    "last_gmp": "+22.34%",
+    "last_gmp": "+21.89%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -822,7 +822,7 @@
   "HD Fire Protect": {
     "open_date": "2026-10-13",
     "close_date": "2026-10-15",
-    "last_gmp": "+23.99%",
+    "last_gmp": "+22.51%",
     "last_retail_sub": "30.55x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -834,7 +834,7 @@
   "Fusion CX": {
     "open_date": "2026-10-14",
     "close_date": "2026-10-16",
-    "last_gmp": "+6.57%",
+    "last_gmp": "+5.19%",
     "last_retail_sub": "5.99x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -858,8 +858,8 @@
   "Bonfiglioli Transmissions": {
     "open_date": "",
     "close_date": "",
-    "last_gmp": "+22.18%",
-    "last_retail_sub": "1.16x",
+    "last_gmp": "+21.67%",
+    "last_retail_sub": "5.90x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
@@ -870,8 +870,8 @@
   "Sahajanand Medical Technologies": {
     "open_date": "2026-10-15",
     "close_date": "2026-10-19",
-    "last_gmp": "+7.27%",
-    "last_retail_sub": "0.83x",
+    "last_gmp": "+6.98%",
+    "last_retail_sub": "3.04x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
@@ -882,8 +882,8 @@
   "Tonbo Imaging India": {
     "open_date": "2026-10-15",
     "close_date": "2026-10-19",
-    "last_gmp": "+73.57%",
-    "last_retail_sub": "7.14x",
+    "last_gmp": "+72.86%",
+    "last_retail_sub": "31.11x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
@@ -894,8 +894,8 @@
   "Zetwerk": {
     "open_date": "2026-10-15",
     "close_date": "2026-10-19",
-    "last_gmp": "+3.31%",
-    "last_retail_sub": "0.37x",
+    "last_gmp": "+2.32%",
+    "last_retail_sub": "0.77x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
@@ -906,7 +906,19 @@
   "Paras Healthcare": {
     "open_date": "2026-10-21",
     "close_date": "2026-10-23",
-    "last_gmp": "+13.28%",
+    "last_gmp": "+11.26%",
+    "last_retail_sub": "N/A",
+    "new_ipo_alert_sent": true,
+    "open_alert_sent": false,
+    "closing_alert_sent": false,
+    "listing_alert_sent": false,
+    "update_alerts_enabled": true,
+    "update_alerts_permanently_disabled": false
+  },
+  "BLS Polymers": {
+    "open_date": "2026-10-27",
+    "close_date": "2026-10-29",
+    "last_gmp": "+12.0%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
