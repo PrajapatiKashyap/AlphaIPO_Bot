@@ -810,8 +810,8 @@
   "Jio Platforms": {
     "open_date": "",
     "close_date": "",
-    "last_gmp": "+24.4%",
-    "last_retail_sub": "N/A",
+    "last_gmp": "+21.98%",
+    "last_retail_sub": "0.73x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
@@ -822,7 +822,7 @@
   "HD Fire Protect": {
     "open_date": "2026-10-13",
     "close_date": "2026-10-15",
-    "last_gmp": "+26.2%",
+    "last_gmp": "+25.83%",
     "last_retail_sub": "30.55x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -834,12 +834,12 @@
   "Fusion CX": {
     "open_date": "2026-10-14",
     "close_date": "2026-10-16",
-    "last_gmp": "+6.92%",
+    "last_gmp": "+4.67%",
     "last_retail_sub": "5.99x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
-    "listing_alert_sent": false,
+    "listing_alert_sent": true,
     "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
   },
@@ -858,7 +858,7 @@
   "Bonfiglioli Transmissions": {
     "open_date": "",
     "close_date": "",
-    "last_gmp": "+23.38%",
+    "last_gmp": "+22.53%",
     "last_retail_sub": "5.90x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -870,7 +870,7 @@
   "Sahajanand Medical Technologies": {
     "open_date": "2026-10-15",
     "close_date": "2026-10-19",
-    "last_gmp": "+6.98%",
+    "last_gmp": "+5.52%",
     "last_retail_sub": "3.04x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -882,7 +882,7 @@
   "Tonbo Imaging India": {
     "open_date": "2026-10-15",
     "close_date": "2026-10-19",
-    "last_gmp": "+73.57%",
+    "last_gmp": "+73.14%",
     "last_retail_sub": "31.11x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -894,7 +894,7 @@
   "Zetwerk": {
     "open_date": "2026-10-15",
     "close_date": "2026-10-19",
-    "last_gmp": "+1.32%",
+    "last_gmp": "0.0%",
     "last_retail_sub": "0.77x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -906,8 +906,8 @@
   "Paras Healthcare": {
     "open_date": "2026-10-21",
     "close_date": "2026-10-23",
-    "last_gmp": "+7.22%",
-    "last_retail_sub": "N/A",
+    "last_gmp": "+3.61%",
+    "last_retail_sub": "0.73x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": false,
@@ -930,9 +930,9 @@
   "SFC Environmental Technologies": {
     "open_date": "2026-10-27",
     "close_date": "2026-10-29",
-    "last_gmp": "0.0%",
+    "last_gmp": "+9.39%",
     "last_retail_sub": "N/A",
-    "new_ipo_alert_sent": false,
+    "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
