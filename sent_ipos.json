@@ -810,7 +810,7 @@
   "Jio Platforms": {
     "open_date": "",
     "close_date": "",
-    "last_gmp": "+22.07%",
+    "last_gmp": "+21.81%",
     "last_retail_sub": "2.76x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -906,7 +906,7 @@
   "Paras Healthcare": {
     "open_date": "2026-10-21",
     "close_date": "2026-10-23",
-    "last_gmp": "+1.3%",
+    "last_gmp": "+1.59%",
     "last_retail_sub": "2.10x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -918,10 +918,10 @@
   "BLS Polymers": {
     "open_date": "2026-10-27",
     "close_date": "2026-10-29",
-    "last_gmp": "+25.33%",
+    "last_gmp": "+26.67%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
-    "open_alert_sent": false,
+    "open_alert_sent": true,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
     "update_alerts_enabled": true,
@@ -930,7 +930,7 @@
   "SFC Environmental Technologies": {
     "open_date": "2026-10-27",
     "close_date": "2026-10-29",
-    "last_gmp": "+9.7%",
+    "last_gmp": "+6.06%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -942,8 +942,8 @@
   "EAAA India Alternatives": {
     "open_date": "2026-10-26",
     "close_date": "2026-10-28",
-    "last_gmp": "+2.16%",
-    "last_retail_sub": "N/A",
+    "last_gmp": "+0.9%",
+    "last_retail_sub": "0.04x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
@@ -954,19 +954,19 @@
   "Bombay Coated and Special Steels": {
     "open_date": "2026-10-29",
     "close_date": "2026-11-02",
-    "last_gmp": "+9.76%",
+    "last_gmp": "+10.98%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
-    "update_alerts_enabled": false,
+    "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
   },
   "M.K.Sons Fine Jewels": {
     "open_date": "2026-10-28",
     "close_date": "2026-10-30",
-    "last_gmp": "+4.32%",
+    "last_gmp": "+4.94%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
