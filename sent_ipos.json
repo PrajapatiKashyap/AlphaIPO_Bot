@@ -810,7 +810,7 @@
   "Jio Platforms": {
     "open_date": "",
     "close_date": "",
-    "last_gmp": "+22.07%",
+    "last_gmp": "+22.34%",
     "last_retail_sub": "2.76x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -918,11 +918,11 @@
   "BLS Polymers": {
     "open_date": "2026-10-27",
     "close_date": "2026-10-29",
-    "last_gmp": "+29.33%",
-    "last_retail_sub": "6.79x",
+    "last_gmp": "+34.0%",
+    "last_retail_sub": "29.85x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
-    "closing_alert_sent": false,
+    "closing_alert_sent": true,
     "listing_alert_sent": false,
     "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
@@ -930,8 +930,8 @@
   "SFC Environmental Technologies": {
     "open_date": "2026-10-27",
     "close_date": "2026-10-29",
-    "last_gmp": "+5.15%",
-    "last_retail_sub": "0.16x",
+    "last_gmp": "+3.03%",
+    "last_retail_sub": "0.34x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
@@ -942,14 +942,14 @@
   "EAAA India Alternatives": {
     "open_date": "2026-10-26",
     "close_date": "2026-10-28",
-    "last_gmp": "+0.66%",
-    "last_retail_sub": "0.11x",
+    "last_gmp": "+1.68%",
+    "last_retail_sub": "1.08x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
     "update_alerts_enabled": false,
-    "update_alerts_permanently_disabled": false
+    "update_alerts_permanently_disabled": true
   },
   "Bombay Coated and Special Steels": {
     "open_date": "2026-10-29",
@@ -957,7 +957,7 @@
     "last_gmp": "+10.98%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
-    "open_alert_sent": false,
+    "open_alert_sent": true,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
     "update_alerts_enabled": true,
@@ -966,8 +966,8 @@
   "M.K.Sons Fine Jewels": {
     "open_date": "2026-10-28",
     "close_date": "2026-10-30",
-    "last_gmp": "+6.17%",
-    "last_retail_sub": "N/A",
+    "last_gmp": "+9.26%",
+    "last_retail_sub": "0.23x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
