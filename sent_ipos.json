@@ -923,14 +923,14 @@
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
-    "listing_alert_sent": false,
+    "listing_alert_sent": true,
     "update_alerts_enabled": true,
     "update_alerts_permanently_disabled": false
   },
   "SFC Environmental Technologies": {
     "open_date": "2026-10-27",
     "close_date": "2026-10-29",
-    "last_gmp": "+7.88%",
+    "last_gmp": "+4.7%",
     "last_retail_sub": "2.71x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -954,8 +954,8 @@
   "Bombay Coated and Special Steels": {
     "open_date": "2026-10-29",
     "close_date": "2026-11-02",
-    "last_gmp": "+10.98%",
-    "last_retail_sub": "3.17x",
+    "last_gmp": "+9.76%",
+    "last_retail_sub": "35.46x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
@@ -966,7 +966,7 @@
   "M.K.Sons Fine Jewels": {
     "open_date": "2026-10-28",
     "close_date": "2026-10-30",
-    "last_gmp": "+3.4%",
+    "last_gmp": "+4.01%",
     "last_retail_sub": "3.08x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
