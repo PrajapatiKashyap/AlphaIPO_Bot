@@ -974,5 +974,17 @@
     "listing_alert_sent": false,
     "update_alerts_enabled": false,
     "update_alerts_permanently_disabled": true
+  },
+  "Crystal Crop Protection": {
+    "open_date": "",
+    "close_date": "",
+    "last_gmp": "0.0%",
+    "last_retail_sub": "N/A",
+    "new_ipo_alert_sent": false,
+    "open_alert_sent": true,
+    "closing_alert_sent": true,
+    "listing_alert_sent": true,
+    "update_alerts_enabled": false,
+    "update_alerts_permanently_disabled": ""
   }
 }
