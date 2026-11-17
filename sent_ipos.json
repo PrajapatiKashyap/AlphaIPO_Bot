@@ -978,7 +978,7 @@
   "Crystal Crop Protection": {
     "open_date": "",
     "close_date": "",
-    "last_gmp": "+5.51%",
+    "last_gmp": "+4.78%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -990,9 +990,9 @@
   "Mahanadi Coalfields": {
     "open_date": "2026-11-19",
     "close_date": "2026-11-23",
-    "last_gmp": "0.0%",
+    "last_gmp": "+2.57%",
     "last_retail_sub": "N/A",
-    "new_ipo_alert_sent": false,
+    "new_ipo_alert_sent": true,
     "open_alert_sent": false,
     "closing_alert_sent": false,
     "listing_alert_sent": false,
