@@ -1002,8 +1002,8 @@
   "Foodlink F&B Holdings": {
     "open_date": "2026-11-26",
     "close_date": "2026-11-30",
-    "last_gmp": "+3.66%",
-    "last_retail_sub": "2.44x",
+    "last_gmp": "+2.09%",
+    "last_retail_sub": "4.09x",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": false,
@@ -1014,7 +1014,7 @@
   "Monomark Engineering": {
     "open_date": "",
     "close_date": "",
-    "last_gmp": "+36.92%",
+    "last_gmp": "+30.77%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": true,
@@ -1038,7 +1038,7 @@
   "Matangi Rubber": {
     "open_date": "2026-12-01",
     "close_date": "2026-12-03",
-    "last_gmp": "+15.7%",
+    "last_gmp": "+18.02%",
     "last_retail_sub": "N/A",
     "new_ipo_alert_sent": true,
     "open_alert_sent": false,
@@ -1050,9 +1050,9 @@
   "Swara Baby Products": {
     "open_date": "",
     "close_date": "",
-    "last_gmp": "0.0%",
+    "last_gmp": "+2.7%",
     "last_retail_sub": "N/A",
-    "new_ipo_alert_sent": false,
+    "new_ipo_alert_sent": true,
     "open_alert_sent": true,
     "closing_alert_sent": true,
     "listing_alert_sent": true,
